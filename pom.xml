@@ -201,27 +201,6 @@
 					</includes>
 				</configuration>
 			</plugin>
-			<plugin>
-				<groupId>net.masterthought</groupId>
-				<artifactId>maven-cucumber-reporting</artifactId>
-				<version>5.7.4</version>
-				<executions>
-					<execution>
-						<id>generate-karate-report</id>
-						<phase>verify</phase>
-						<goals>
-							<goal>generate</goal>
-						</goals>
-						<configuration>
-							<projectName>Inditex Demo API</projectName>
-							<outputDirectory>${project.build.directory}/karate-reports</outputDirectory>
-							<jsonFiles>
-								<param>${project.build.directory}/karate-reports/*.json</param>
-							</jsonFiles>
-						</configuration>
-					</execution>
-				</executions>
-			</plugin>
 		</plugins>
 	</build>
 </project>
