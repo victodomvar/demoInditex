@@ -1,0 +1,1265 @@
+[1mApache Maven 3.6.3[m
+Maven home: /usr/share/maven
+Java version: 17.0.14, vendor: Ubuntu, runtime: /usr/lib/jvm/java-17-openjdk-amd64
+Default locale: en, platform encoding: UTF-8
+OS name: "linux", version: "5.15.167.4-microsoft-standard-wsl2", arch: "amd64", family: "unix"
+[[1;36mDEBUG[m] Created new class realm maven.api
+[[1;36mDEBUG[m] Importing foreign packages into class realm maven.api
+[[1;36mDEBUG[m]   Imported: javax.annotation.* < plexus.core
+[[1;36mDEBUG[m]   Imported: javax.annotation.security.* < plexus.core
+[[1;36mDEBUG[m]   Imported: javax.enterprise.inject.* < plexus.core
+[[1;36mDEBUG[m]   Imported: javax.enterprise.util.* < plexus.core
+[[1;36mDEBUG[m]   Imported: javax.inject.* < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.* < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.artifact < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.classrealm < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.cli < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.configuration < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.exception < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.execution < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.execution.scope < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.lifecycle < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.model < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.monitor < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.plugin < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.profiles < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.project < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.reporting < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.repository < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.rtinfo < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.settings < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.toolchain < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.usability < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.wagon.* < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.wagon.authentication < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.wagon.authorization < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.wagon.events < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.wagon.observers < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.wagon.proxy < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.wagon.repository < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.wagon.resource < plexus.core
+[[1;36mDEBUG[m]   Imported: org.codehaus.classworlds < plexus.core
+[[1;36mDEBUG[m]   Imported: org.codehaus.plexus.* < plexus.core
+[[1;36mDEBUG[m]   Imported: org.codehaus.plexus.classworlds < plexus.core
+[[1;36mDEBUG[m]   Imported: org.codehaus.plexus.component < plexus.core
+[[1;36mDEBUG[m]   Imported: org.codehaus.plexus.configuration < plexus.core
+[[1;36mDEBUG[m]   Imported: org.codehaus.plexus.container < plexus.core
+[[1;36mDEBUG[m]   Imported: org.codehaus.plexus.context < plexus.core
+[[1;36mDEBUG[m]   Imported: org.codehaus.plexus.lifecycle < plexus.core
+[[1;36mDEBUG[m]   Imported: org.codehaus.plexus.logging < plexus.core
+[[1;36mDEBUG[m]   Imported: org.codehaus.plexus.personality < plexus.core
+[[1;36mDEBUG[m]   Imported: org.codehaus.plexus.util.xml.Xpp3Dom < plexus.core
+[[1;36mDEBUG[m]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParser < plexus.core
+[[1;36mDEBUG[m]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParserException < plexus.core
+[[1;36mDEBUG[m]   Imported: org.codehaus.plexus.util.xml.pull.XmlSerializer < plexus.core
+[[1;36mDEBUG[m]   Imported: org.eclipse.aether.* < plexus.core
+[[1;36mDEBUG[m]   Imported: org.eclipse.aether.artifact < plexus.core
+[[1;36mDEBUG[m]   Imported: org.eclipse.aether.collection < plexus.core
+[[1;36mDEBUG[m]   Imported: org.eclipse.aether.deployment < plexus.core
+[[1;36mDEBUG[m]   Imported: org.eclipse.aether.graph < plexus.core
+[[1;36mDEBUG[m]   Imported: org.eclipse.aether.impl < plexus.core
+[[1;36mDEBUG[m]   Imported: org.eclipse.aether.installation < plexus.core
+[[1;36mDEBUG[m]   Imported: org.eclipse.aether.internal.impl < plexus.core
+[[1;36mDEBUG[m]   Imported: org.eclipse.aether.metadata < plexus.core
+[[1;36mDEBUG[m]   Imported: org.eclipse.aether.repository < plexus.core
+[[1;36mDEBUG[m]   Imported: org.eclipse.aether.resolution < plexus.core
+[[1;36mDEBUG[m]   Imported: org.eclipse.aether.spi < plexus.core
+[[1;36mDEBUG[m]   Imported: org.eclipse.aether.transfer < plexus.core
+[[1;36mDEBUG[m]   Imported: org.eclipse.aether.version < plexus.core
+[[1;36mDEBUG[m]   Imported: org.fusesource.jansi.* < plexus.core
+[[1;36mDEBUG[m]   Imported: org.slf4j.* < plexus.core
+[[1;36mDEBUG[m]   Imported: org.slf4j.event.* < plexus.core
+[[1;36mDEBUG[m]   Imported: org.slf4j.helpers.* < plexus.core
+[[1;36mDEBUG[m]   Imported: org.slf4j.spi.* < plexus.core
+[[1;36mDEBUG[m] Populating class realm maven.api
+[[1;34mINFO[m] Error stacktraces are turned on.
+[[1;36mDEBUG[m] Message scheme: color
+[[1;36mDEBUG[m] Message styles: [1;36mdebug[m [1;34minfo[m [1;33mwarning[m [1;31merror[m [1;32msuccess[m [1;31mfailure[m [1mstrong[m [32mmojo[m [36mproject[m
+[[1;36mDEBUG[m] Reading global settings from /usr/share/maven/conf/settings.xml
+[[1;36mDEBUG[m] Reading user settings from /home/victor/.m2/settings.xml
+[[1;36mDEBUG[m] Reading global toolchains from /usr/share/maven/conf/toolchains.xml
+[[1;36mDEBUG[m] Reading user toolchains from /home/victor/.m2/toolchains.xml
+[[1;36mDEBUG[m] Using local repository at /home/victor/.m2/repository
+[[1;36mDEBUG[m] Using manager EnhancedLocalRepositoryManager with priority 10.0 for /home/victor/.m2/repository
+[[1;36mDEBUG[m] Failed to decrypt password for server github: org.sonatype.plexus.components.sec.dispatcher.SecDispatcherException: java.io.FileNotFoundException: /home/victor/.m2/settings-security.xml (No such file or directory)
+[1;31morg.sonatype.plexus.components.sec.dispatcher.SecDispatcherException[m: [1;31morg.sonatype.plexus.components.sec.dispatcher.SecDispatcherException: java.io.FileNotFoundException: /home/victor/.m2/settings-security.xml (No such file or directory)[m
+    [1mat[m org.sonatype.plexus.components.sec.dispatcher.DefaultSecDispatcher.decrypt ([1mDefaultSecDispatcher.java:121[m)
+    [1mat[m org.apache.maven.settings.crypto.DefaultSettingsDecrypter.decrypt ([1mDefaultSettingsDecrypter.java:114[m)
+    [1mat[m org.apache.maven.settings.crypto.DefaultSettingsDecrypter.decrypt ([1mDefaultSettingsDecrypter.java:70[m)
+    [1mat[m org.apache.maven.internal.aether.DefaultRepositorySystemSessionFactory.newRepositorySession ([1mDefaultRepositorySystemSessionFactory.java:167[m)
+    [1mat[m org.apache.maven.DefaultMaven.newRepositorySession ([1mDefaultMaven.java:350[m)
+    [1mat[m org.apache.maven.DefaultMaven.doExecute ([1mDefaultMaven.java:185[m)
+    [1mat[m org.apache.maven.DefaultMaven.execute ([1mDefaultMaven.java:105[m)
+    [1mat[m org.apache.maven.cli.MavenCli.execute ([1mMavenCli.java:957[m)
+    [1mat[m org.apache.maven.cli.MavenCli.doMain ([1mMavenCli.java:289[m)
+    [1mat[m org.apache.maven.cli.MavenCli.main ([1mMavenCli.java:193[m)
+    [1mat[m jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 ([1mNative Method[m)
+    [1mat[m jdk.internal.reflect.NativeMethodAccessorImpl.invoke ([1mNativeMethodAccessorImpl.java:77[m)
+    [1mat[m jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke ([1mDelegatingMethodAccessorImpl.java:43[m)
+    [1mat[m java.lang.reflect.Method.invoke ([1mMethod.java:569[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced ([1mLauncher.java:282[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.launch ([1mLauncher.java:225[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode ([1mLauncher.java:406[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.main ([1mLauncher.java:347[m)
+[1mCaused by[m: org.sonatype.plexus.components.sec.dispatcher.SecDispatcherException: [1;31mjava.io.FileNotFoundException: /home/victor/.m2/settings-security.xml (No such file or directory)[m
+    [1mat[m org.sonatype.plexus.components.sec.dispatcher.SecUtil.read ([1mSecUtil.java:69[m)
+    [1mat[m org.sonatype.plexus.components.sec.dispatcher.DefaultSecDispatcher.getSec ([1mDefaultSecDispatcher.java:206[m)
+    [1mat[m org.sonatype.plexus.components.sec.dispatcher.DefaultSecDispatcher.decrypt ([1mDefaultSecDispatcher.java:90[m)
+    [1mat[m org.apache.maven.settings.crypto.DefaultSettingsDecrypter.decrypt ([1mDefaultSettingsDecrypter.java:114[m)
+    [1mat[m org.apache.maven.settings.crypto.DefaultSettingsDecrypter.decrypt ([1mDefaultSettingsDecrypter.java:70[m)
+    [1mat[m org.apache.maven.internal.aether.DefaultRepositorySystemSessionFactory.newRepositorySession ([1mDefaultRepositorySystemSessionFactory.java:167[m)
+    [1mat[m org.apache.maven.DefaultMaven.newRepositorySession ([1mDefaultMaven.java:350[m)
+    [1mat[m org.apache.maven.DefaultMaven.doExecute ([1mDefaultMaven.java:185[m)
+    [1mat[m org.apache.maven.DefaultMaven.execute ([1mDefaultMaven.java:105[m)
+    [1mat[m org.apache.maven.cli.MavenCli.execute ([1mMavenCli.java:957[m)
+    [1mat[m org.apache.maven.cli.MavenCli.doMain ([1mMavenCli.java:289[m)
+    [1mat[m org.apache.maven.cli.MavenCli.main ([1mMavenCli.java:193[m)
+    [1mat[m jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 ([1mNative Method[m)
+    [1mat[m jdk.internal.reflect.NativeMethodAccessorImpl.invoke ([1mNativeMethodAccessorImpl.java:77[m)
+    [1mat[m jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke ([1mDelegatingMethodAccessorImpl.java:43[m)
+    [1mat[m java.lang.reflect.Method.invoke ([1mMethod.java:569[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced ([1mLauncher.java:282[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.launch ([1mLauncher.java:225[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode ([1mLauncher.java:406[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.main ([1mLauncher.java:347[m)
+[1mCaused by[m: java.io.FileNotFoundException: [1;31m/home/victor/.m2/settings-security.xml (No such file or directory)[m
+    [1mat[m java.io.FileInputStream.open0 ([1mNative Method[m)
+    [1mat[m java.io.FileInputStream.open ([1mFileInputStream.java:216[m)
+    [1mat[m java.io.FileInputStream.<init> ([1mFileInputStream.java:157[m)
+    [1mat[m org.sonatype.plexus.components.sec.dispatcher.SecUtil.toStream ([1mSecUtil.java:100[m)
+    [1mat[m org.sonatype.plexus.components.sec.dispatcher.SecUtil.read ([1mSecUtil.java:56[m)
+    [1mat[m org.sonatype.plexus.components.sec.dispatcher.DefaultSecDispatcher.getSec ([1mDefaultSecDispatcher.java:206[m)
+    [1mat[m org.sonatype.plexus.components.sec.dispatcher.DefaultSecDispatcher.decrypt ([1mDefaultSecDispatcher.java:90[m)
+    [1mat[m org.apache.maven.settings.crypto.DefaultSettingsDecrypter.decrypt ([1mDefaultSettingsDecrypter.java:114[m)
+    [1mat[m org.apache.maven.settings.crypto.DefaultSettingsDecrypter.decrypt ([1mDefaultSettingsDecrypter.java:70[m)
+    [1mat[m org.apache.maven.internal.aether.DefaultRepositorySystemSessionFactory.newRepositorySession ([1mDefaultRepositorySystemSessionFactory.java:167[m)
+    [1mat[m org.apache.maven.DefaultMaven.newRepositorySession ([1mDefaultMaven.java:350[m)
+    [1mat[m org.apache.maven.DefaultMaven.doExecute ([1mDefaultMaven.java:185[m)
+    [1mat[m org.apache.maven.DefaultMaven.execute ([1mDefaultMaven.java:105[m)
+    [1mat[m org.apache.maven.cli.MavenCli.execute ([1mMavenCli.java:957[m)
+    [1mat[m org.apache.maven.cli.MavenCli.doMain ([1mMavenCli.java:289[m)
+    [1mat[m org.apache.maven.cli.MavenCli.main ([1mMavenCli.java:193[m)
+    [1mat[m jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 ([1mNative Method[m)
+    [1mat[m jdk.internal.reflect.NativeMethodAccessorImpl.invoke ([1mNativeMethodAccessorImpl.java:77[m)
+    [1mat[m jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke ([1mDelegatingMethodAccessorImpl.java:43[m)
+    [1mat[m java.lang.reflect.Method.invoke ([1mMethod.java:569[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced ([1mLauncher.java:282[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.launch ([1mLauncher.java:225[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode ([1mLauncher.java:406[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.main ([1mLauncher.java:347[m)
+[[1;34mINFO[m] Scanning for projects...
+[[1;36mDEBUG[m] Extension realms for project com.inditex:demo:jar:0.0.1-SNAPSHOT: (none)
+[[1;36mDEBUG[m] Looking up lifecycle mappings for packaging jar from ClassRealm[plexus.core, parent: null]
+[[1;36mDEBUG[m] Extension realms for project org.springframework.boot:spring-boot-starter-parent:pom:3.5.0: (none)
+[[1;36mDEBUG[m] Looking up lifecycle mappings for packaging pom from ClassRealm[plexus.core, parent: null]
+[[1;36mDEBUG[m] Extension realms for project org.springframework.boot:spring-boot-dependencies:pom:3.5.0: (none)
+[[1;36mDEBUG[m] Looking up lifecycle mappings for packaging pom from ClassRealm[plexus.core, parent: null]
+[[1;36mDEBUG[m] === REACTOR BUILD PLAN ================================================
+[[1;36mDEBUG[m] Project: com.inditex:demo:jar:0.0.1-SNAPSHOT
+[[1;36mDEBUG[m] Tasks:   [clean, compile]
+[[1;36mDEBUG[m] Style:   Regular
+[[1;36mDEBUG[m] =======================================================================
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------------------< [0;36mcom.inditex:demo[0;1m >--------------------------[m
+[[1;34mINFO[m] [1mBuilding demo 0.0.1-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;36mDEBUG[m] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[[1;36mDEBUG[m] Lifecycle clean -> [pre-clean, clean, post-clean]
+[[1;36mDEBUG[m] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[[1;36mDEBUG[m] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[[1;36mDEBUG[m] Lifecycle clean -> [pre-clean, clean, post-clean]
+[[1;36mDEBUG[m] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[[1;36mDEBUG[m] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[[1;36mDEBUG[m] Lifecycle clean -> [pre-clean, clean, post-clean]
+[[1;36mDEBUG[m] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[[1;36mDEBUG[m] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[[1;36mDEBUG[m] Lifecycle clean -> [pre-clean, clean, post-clean]
+[[1;36mDEBUG[m] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[[1;36mDEBUG[m] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[[1;36mDEBUG[m] Lifecycle clean -> [pre-clean, clean, post-clean]
+[[1;36mDEBUG[m] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[[1;36mDEBUG[m] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[[1;36mDEBUG[m] Lifecycle clean -> [pre-clean, clean, post-clean]
+[[1;36mDEBUG[m] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[[1;36mDEBUG[m] === PROJECT BUILD PLAN ================================================
+[[1;36mDEBUG[m] Project:       com.inditex:demo:0.0.1-SNAPSHOT
+[[1;36mDEBUG[m] Dependencies (collect): []
+[[1;36mDEBUG[m] Dependencies (resolve): [compile]
+[[1;36mDEBUG[m] Repositories (dependencies): [central (https://repo.maven.apache.org/maven2, default, releases)]
+[[1;36mDEBUG[m] Repositories (plugins)     : [central (https://repo.maven.apache.org/maven2, default, releases)]
+[[1;36mDEBUG[m] -----------------------------------------------------------------------
+[[1;36mDEBUG[m] Goal:          org.apache.maven.plugins:maven-clean-plugin:3.4.1:clean (default-clean)
+[[1;36mDEBUG[m] Style:         Regular
+[[1;36mDEBUG[m] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <directory default-value="${project.build.directory}"/>
+  <excludeDefaultDirectories default-value="false">${maven.clean.excludeDefaultDirectories}</excludeDefaultDirectories>
+  <failOnError default-value="true">${maven.clean.failOnError}</failOnError>
+  <fast default-value="false">${maven.clean.fast}</fast>
+  <fastDir>${maven.clean.fastDir}</fastDir>
+  <fastMode default-value="background">${maven.clean.fastMode}</fastMode>
+  <followSymLinks default-value="false">${maven.clean.followSymLinks}</followSymLinks>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <reportDirectory default-value="${project.build.outputDirectory}"/>
+  <retryOnError default-value="true">${maven.clean.retryOnError}</retryOnError>
+  <session default-value="${session}"/>
+  <skip default-value="false">${maven.clean.skip}</skip>
+  <testOutputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <verbose>${maven.clean.verbose}</verbose>
+</configuration>
+[[1;36mDEBUG[m] -----------------------------------------------------------------------
+[[1;36mDEBUG[m] Goal:          org.openapitools:openapi-generator-maven-plugin:6.2.1:generate (generate-sources)
+[[1;36mDEBUG[m] Style:         Regular
+[[1;36mDEBUG[m] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <addCompileSourceRoot default-value="true">${openapi.generator.maven.plugin.addCompileSourceRoot}</addCompileSourceRoot>
+  <addTestCompileSourceRoot default-value="false">${openapi.generator.maven.plugin.addTestCompileSourceRoot}</addTestCompileSourceRoot>
+  <additionalProperties>${openapi.generator.maven.plugin.additionalProperties}</additionalProperties>
+  <apiNameSuffix>${openapi.generator.maven.plugin.apiNameSuffix}</apiNameSuffix>
+  <apiPackage>com.inditex.demo.infrastructure.controller</apiPackage>
+  <apisToGenerate>${openapi.generator.maven.plugin.apisToGenerate}</apisToGenerate>
+  <artifactId>${openapi.generator.maven.plugin.artifactId}</artifactId>
+  <artifactVersion>${openapi.generator.maven.plugin.artifactVersion}</artifactVersion>
+  <auth>${openapi.generator.maven.plugin.auth}</auth>
+  <configHelp>${codegen.configHelp}</configHelp>
+  <configOptions>
+    <interfaceOnly>true</interfaceOnly>
+    <useTags>true</useTags>
+    <skipDefaultInterface>true</skipDefaultInterface>
+    <useSpringBoot3>true</useSpringBoot3>
+  </configOptions>
+  <configurationFile>${openapi.generator.maven.plugin.configurationFile}</configurationFile>
+  <enablePostProcessFile>${openapi.generator.maven.plugin.enablePostProcessFile}</enablePostProcessFile>
+  <engine default-value="mustache">${openapi.generator.maven.plugin.engine}</engine>
+  <generateAliasAsModel>${openapi.generator.maven.plugin.generateAliasAsModel}</generateAliasAsModel>
+  <generateApiDocumentation>${openapi.generator.maven.plugin.generateApiDocumentation}</generateApiDocumentation>
+  <generateApiTests>${openapi.generator.maven.plugin.generateApiTests}</generateApiTests>
+  <generateApis>${openapi.generator.maven.plugin.generateApis}</generateApis>
+  <generateModelDocumentation>${openapi.generator.maven.plugin.generateModelDocumentation}</generateModelDocumentation>
+  <generateModelTests>${openapi.generator.maven.plugin.generateModelTests}</generateModelTests>
+  <generateModels>${openapi.generator.maven.plugin.generateModels}</generateModels>
+  <generateSupportingFiles>${openapi.generator.maven.plugin.generateSupportingFiles}</generateSupportingFiles>
+  <generatorName>spring</generatorName>
+  <gitHost>${openapi.generator.maven.plugin.gitHost}</gitHost>
+  <gitRepoId>${openapi.generator.maven.plugin.gitRepoId}</gitRepoId>
+  <gitUserId>${openapi.generator.maven.plugin.gitUserId}</gitUserId>
+  <groupId>${openapi.generator.maven.plugin.groupId}</groupId>
+  <httpUserAgent>${openapi.generator.maven.plugin.httpUserAgent}</httpUserAgent>
+  <ignoreFileOverride>${openapi.generator.maven.plugin.ignoreFileOverride}</ignoreFileOverride>
+  <importMappings>${openapi.generator.maven.plugin.importMappings}</importMappings>
+  <inlineSchemaNameDefaults>${openapi.generator.maven.plugin.inlineSchemaNameDefaults}</inlineSchemaNameDefaults>
+  <inlineSchemaNameMappings>${openapi.generator.maven.plugin.inlineSchemaNameMappings}</inlineSchemaNameMappings>
+  <inputSpec>/home/victor/workspace/demo/src/main/resources/openapi/openapi.yaml</inputSpec>
+  <instantiationTypes>${openapi.generator.maven.plugin.instantiationTypes}</instantiationTypes>
+  <invokerPackage>${openapi.generator.maven.plugin.invokerPackage}</invokerPackage>
+  <languageSpecificPrimitives>${openapi.generator.maven.plugin.languageSpecificPrimitives}</languageSpecificPrimitives>
+  <library>${openapi.generator.maven.plugin.library}</library>
+  <logToStderr>${openapi.generator.maven.plugin.logToStderr}</logToStderr>
+  <modelNamePrefix>${openapi.generator.maven.plugin.modelNamePrefix}</modelNamePrefix>
+  <modelNameSuffix>${openapi.generator.maven.plugin.modelNameSuffix}</modelNameSuffix>
+  <modelPackage>com.inditex.demo.infrastructure.dto</modelPackage>
+  <modelsToGenerate>${openapi.generator.maven.plugin.modelsToGenerate}</modelsToGenerate>
+  <mojo default-value="${mojoExecution}"/>
+  <output>/home/victor/workspace/demo/target/generated-sources/openapi</output>
+  <packageName>${openapi.generator.maven.plugin.packageName}</packageName>
+  <project default-value="${project}"/>
+  <removeOperationIdPrefix>${openapi.generator.maven.plugin.removeOperationIdPrefix}</removeOperationIdPrefix>
+  <reservedWordsMappings>${openapi.generator.maven.plugin.reservedWordsMappings}</reservedWordsMappings>
+  <schemaMappings>${openapi.generator.maven.plugin.schemaMappings}</schemaMappings>
+  <serverVariableOverrides>${openapi.generator.maven.plugin.serverVariableOverrides}</serverVariableOverrides>
+  <skip default-value="false">${codegen.skip}</skip>
+  <skipIfSpecIsUnchanged default-value="false">${codegen.skipIfSpecIsUnchanged}</skipIfSpecIsUnchanged>
+  <skipOperationExample>${openapi.generator.maven.plugin.skipOperationExample}</skipOperationExample>
+  <skipOverwrite>${openapi.generator.maven.plugin.skipOverwrite}</skipOverwrite>
+  <skipValidateSpec>${openapi.generator.maven.plugin.skipValidateSpec}</skipValidateSpec>
+  <strictSpec>${openapi.generator.maven.plugin.strictSpec}</strictSpec>
+  <supportingFilesToGenerate>${openapi.generator.maven.plugin.supportingFilesToGenerate}</supportingFilesToGenerate>
+  <templateDirectory>${openapi.generator.maven.plugin.templateDirectory}</templateDirectory>
+  <templateResourcePath>${openapi.generator.maven.plugin.templateResourcePath}</templateResourcePath>
+  <typeMappings>${openapi.generator.maven.plugin.typeMappings}</typeMappings>
+  <verbose default-value="false"/>
+  <withXml>${openapi.generator.maven.plugin.withXml}</withXml>
+</configuration>
+[[1;36mDEBUG[m] -----------------------------------------------------------------------
+[[1;36mDEBUG[m] Goal:          org.apache.maven.plugins:maven-resources-plugin:3.3.1:resources (default-resources)
+[[1;36mDEBUG[m] Style:         Regular
+[[1;36mDEBUG[m] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <addDefaultExcludes default-value="true"/>
+  <buildFilters default-value="${project.build.filters}"/>
+  <delimiters>
+    <delimiter>@</delimiter>
+  </delimiters>
+  <encoding default-value="${project.build.sourceEncoding}"/>
+  <escapeWindowsPaths default-value="true"/>
+  <fileNameFiltering default-value="false"/>
+  <includeEmptyDirs default-value="false"/>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <overwrite default-value="false"/>
+  <project default-value="${project}"/>
+  <propertiesEncoding>UTF-8</propertiesEncoding>
+  <resources default-value="${project.resources}"/>
+  <session default-value="${session}"/>
+  <skip default-value="false">${maven.resources.skip}</skip>
+  <supportMultiLineFiltering default-value="false"/>
+  <useBuildFilters default-value="true"/>
+  <useDefaultDelimiters default-value="true">false</useDefaultDelimiters>
+</configuration>
+[[1;36mDEBUG[m] -----------------------------------------------------------------------
+[[1;36mDEBUG[m] Goal:          org.apache.maven.plugins:maven-compiler-plugin:3.11.0:compile (default-compile)
+[[1;36mDEBUG[m] Style:         Regular
+[[1;36mDEBUG[m] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <annotationProcessorPaths>
+    <path>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+      <version>1.18.30</version>
+    </path>
+  </annotationProcessorPaths>
+  <basedir default-value="${basedir}"/>
+  <buildDirectory default-value="${project.build.directory}"/>
+  <compilePath default-value="${project.compileClasspathElements}"/>
+  <compileSourceRoots default-value="${project.compileSourceRoots}"/>
+  <compilerId default-value="javac">${maven.compiler.compilerId}</compilerId>
+  <compilerReuseStrategy default-value="${reuseCreated}">${maven.compiler.compilerReuseStrategy}</compilerReuseStrategy>
+  <compilerVersion>${maven.compiler.compilerVersion}</compilerVersion>
+  <createMissingPackageInfoClass default-value="true">${maven.compiler.createMissingPackageInfoClass}</createMissingPackageInfoClass>
+  <debug default-value="true">${maven.compiler.debug}</debug>
+  <debugFileName default-value="javac"/>
+  <debuglevel>${maven.compiler.debuglevel}</debuglevel>
+  <enablePreview default-value="false">${maven.compiler.enablePreview}</enablePreview>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <executable>${maven.compiler.executable}</executable>
+  <failOnError default-value="true">${maven.compiler.failOnError}</failOnError>
+  <failOnWarning default-value="false">${maven.compiler.failOnWarning}</failOnWarning>
+  <forceJavacCompilerUse default-value="false">${maven.compiler.forceJavacCompilerUse}</forceJavacCompilerUse>
+  <fork default-value="false">${maven.compiler.fork}</fork>
+  <generatedSourcesDirectory default-value="${project.build.directory}/generated-sources/annotations"/>
+  <implicit>${maven.compiler.implicit}</implicit>
+  <maxmem>${maven.compiler.maxmem}</maxmem>
+  <meminitial>${maven.compiler.meminitial}</meminitial>
+  <mojoExecution default-value="${mojoExecution}"/>
+  <optimize default-value="false">${maven.compiler.optimize}</optimize>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <parameters default-value="false">true</parameters>
+  <project default-value="${project}"/>
+  <projectArtifact default-value="${project.artifact}"/>
+  <release>${maven.compiler.release}</release>
+  <session default-value="${session}"/>
+  <showCompilationChanges default-value="false">${maven.compiler.showCompilationChanges}</showCompilationChanges>
+  <showDeprecation default-value="false">${maven.compiler.showDeprecation}</showDeprecation>
+  <showWarnings default-value="true">${maven.compiler.showWarnings}</showWarnings>
+  <skipMain>${maven.main.skip}</skipMain>
+  <skipMultiThreadWarning default-value="false">${maven.compiler.skipMultiThreadWarning}</skipMultiThreadWarning>
+  <source default-value="1.8">17</source>
+  <staleMillis default-value="0">${lastModGranularityMs}</staleMillis>
+  <target default-value="1.8">17</target>
+  <useIncrementalCompilation default-value="true">${maven.compiler.useIncrementalCompilation}</useIncrementalCompilation>
+  <verbose default-value="false">${maven.compiler.verbose}</verbose>
+</configuration>
+[[1;36mDEBUG[m] =======================================================================
+[[1;36mDEBUG[m] Dependency collection stats: {ConflictMarker.analyzeTime=628476, ConflictMarker.markTime=228582, ConflictMarker.nodeCount=179, ConflictIdSorter.graphTime=339293, ConflictIdSorter.topsortTime=220339, ConflictIdSorter.conflictIdCount=95, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=6499766, ConflictResolver.conflictItemCount=176, DefaultDependencyCollector.collectTime=147689976, DefaultDependencyCollector.transformTime=8835692}
+[[1;36mDEBUG[m] com.inditex:demo:jar:0.0.1-SNAPSHOT
+[[1;36mDEBUG[m]    org.springframework.boot:spring-boot-starter-web:jar:3.5.0:compile
+[[1;36mDEBUG[m]       org.springframework.boot:spring-boot-starter:jar:3.5.0:compile (version managed from 3.5.0)
+[[1;36mDEBUG[m]          org.springframework.boot:spring-boot:jar:3.5.0:compile (version managed from 3.5.0)
+[[1;36mDEBUG[m]          org.springframework.boot:spring-boot-autoconfigure:jar:3.5.0:compile (version managed from 3.5.0)
+[[1;36mDEBUG[m]          org.springframework.boot:spring-boot-starter-logging:jar:3.5.0:compile (version managed from 3.5.0)
+[[1;36mDEBUG[m]             ch.qos.logback:logback-classic:jar:1.5.18:compile (version managed from 1.5.18)
+[[1;36mDEBUG[m]                ch.qos.logback:logback-core:jar:1.5.18:compile (version managed from 1.5.18)
+[[1;36mDEBUG[m]             org.apache.logging.log4j:log4j-to-slf4j:jar:2.24.3:compile (version managed from 2.24.3)
+[[1;36mDEBUG[m]                org.apache.logging.log4j:log4j-api:jar:2.24.3:compile (version managed from 2.24.3)
+[[1;36mDEBUG[m]             org.slf4j:jul-to-slf4j:jar:2.0.17:compile (version managed from 2.0.17)
+[[1;36mDEBUG[m]          org.yaml:snakeyaml:jar:2.4:compile (version managed from 2.4)
+[[1;36mDEBUG[m]       org.springframework.boot:spring-boot-starter-json:jar:3.5.0:compile (version managed from 3.5.0)
+[[1;36mDEBUG[m]          com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.19.0:compile (version managed from 2.19.0)
+[[1;36mDEBUG[m]          com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.19.0:compile (version managed from 2.19.0)
+[[1;36mDEBUG[m]          com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.19.0:compile (version managed from 2.19.0)
+[[1;36mDEBUG[m]       org.springframework.boot:spring-boot-starter-tomcat:jar:3.5.0:compile (version managed from 3.5.0)
+[[1;36mDEBUG[m]          org.apache.tomcat.embed:tomcat-embed-core:jar:10.1.41:compile (version managed from 10.1.41)
+[[1;36mDEBUG[m]          org.apache.tomcat.embed:tomcat-embed-el:jar:10.1.41:compile (version managed from 10.1.41)
+[[1;36mDEBUG[m]          org.apache.tomcat.embed:tomcat-embed-websocket:jar:10.1.41:compile (version managed from 10.1.41)
+[[1;36mDEBUG[m]       org.springframework:spring-web:jar:6.2.7:compile (version managed from 6.2.7)
+[[1;36mDEBUG[m]          org.springframework:spring-beans:jar:6.2.7:compile (version managed from 6.2.7)
+[[1;36mDEBUG[m]          io.micrometer:micrometer-observation:jar:1.15.0:compile (version managed from 1.14.7)
+[[1;36mDEBUG[m]             io.micrometer:micrometer-commons:jar:1.15.0:compile (version managed from 1.15.0)
+[[1;36mDEBUG[m]       org.springframework:spring-webmvc:jar:6.2.7:compile (version managed from 6.2.7)
+[[1;36mDEBUG[m]          org.springframework:spring-aop:jar:6.2.7:compile (version managed from 6.2.7)
+[[1;36mDEBUG[m]          org.springframework:spring-context:jar:6.2.7:compile (version managed from 6.2.7)
+[[1;36mDEBUG[m]          org.springframework:spring-expression:jar:6.2.7:compile (version managed from 6.2.7)
+[[1;36mDEBUG[m]    org.springframework.boot:spring-boot-starter-data-jpa:jar:3.5.0:compile
+[[1;36mDEBUG[m]       org.springframework.boot:spring-boot-starter-jdbc:jar:3.5.0:compile (version managed from 3.5.0)
+[[1;36mDEBUG[m]          com.zaxxer:HikariCP:jar:6.3.0:compile (version managed from 6.3.0)
+[[1;36mDEBUG[m]          org.springframework:spring-jdbc:jar:6.2.7:compile (version managed from 6.2.7)
+[[1;36mDEBUG[m]       org.hibernate.orm:hibernate-core:jar:6.6.15.Final:compile (version managed from 6.6.15.Final)
+[[1;36mDEBUG[m]          jakarta.persistence:jakarta.persistence-api:jar:3.1.0:compile (version managed from 3.1.0)
+[[1;36mDEBUG[m]          jakarta.transaction:jakarta.transaction-api:jar:2.0.1:compile (version managed from 2.0.1)
+[[1;36mDEBUG[m]          org.jboss.logging:jboss-logging:jar:3.6.1.Final:runtime (version managed from 3.5.0.Final)
+[[1;36mDEBUG[m]          org.hibernate.common:hibernate-commons-annotations:jar:7.0.3.Final:runtime
+[[1;36mDEBUG[m]          io.smallrye:jandex:jar:3.2.0:runtime
+[[1;36mDEBUG[m]          com.fasterxml:classmate:jar:1.7.0:runtime (version managed from 1.5.1)
+[[1;36mDEBUG[m]          net.bytebuddy:byte-buddy:jar:1.17.5:runtime (version managed from 1.15.11)
+[[1;36mDEBUG[m]          org.glassfish.jaxb:jaxb-runtime:jar:4.0.5:runtime (version managed from 4.0.2)
+[[1;36mDEBUG[m]             org.glassfish.jaxb:jaxb-core:jar:4.0.5:runtime (version managed from 4.0.5)
+[[1;36mDEBUG[m]                org.eclipse.angus:angus-activation:jar:2.0.2:runtime (version managed from 2.0.2)
+[[1;36mDEBUG[m]                org.glassfish.jaxb:txw2:jar:4.0.5:runtime (version managed from 4.0.5)
+[[1;36mDEBUG[m]                com.sun.istack:istack-commons-runtime:jar:4.1.2:runtime (version managed from 4.1.2)
+[[1;36mDEBUG[m]          jakarta.inject:jakarta.inject-api:jar:2.0.1:runtime (version managed from 2.0.1)
+[[1;36mDEBUG[m]          org.antlr:antlr4-runtime:jar:4.13.0:compile
+[[1;36mDEBUG[m]       org.springframework.data:spring-data-jpa:jar:3.5.0:compile (version managed from 3.5.0)
+[[1;36mDEBUG[m]          org.springframework.data:spring-data-commons:jar:3.5.0:compile (version managed from 3.5.0)
+[[1;36mDEBUG[m]          org.springframework:spring-orm:jar:6.2.7:compile (version managed from 6.2.7)
+[[1;36mDEBUG[m]          org.springframework:spring-tx:jar:6.2.7:compile (version managed from 6.2.7)
+[[1;36mDEBUG[m]          org.slf4j:slf4j-api:jar:2.0.17:compile (version managed from 2.0.2)
+[[1;36mDEBUG[m]       org.springframework:spring-aspects:jar:6.2.7:compile (version managed from 6.2.7)
+[[1;36mDEBUG[m]          org.aspectj:aspectjweaver:jar:1.9.24:compile (version managed from 1.9.22.1)
+[[1;36mDEBUG[m]    com.h2database:h2:jar:2.3.232:runtime
+[[1;36mDEBUG[m]    org.postgresql:postgresql:jar:42.7.5:runtime
+[[1;36mDEBUG[m]       org.checkerframework:checker-qual:jar:3.48.3:runtime
+[[1;36mDEBUG[m]    org.projectlombok:lombok:jar:1.18.30:provided
+[[1;36mDEBUG[m]    org.springframework.boot:spring-boot-starter-test:jar:3.5.0:test
+[[1;36mDEBUG[m]       org.springframework.boot:spring-boot-test:jar:3.5.0:test (version managed from 3.5.0)
+[[1;36mDEBUG[m]       org.springframework.boot:spring-boot-test-autoconfigure:jar:3.5.0:test (version managed from 3.5.0)
+[[1;36mDEBUG[m]       com.jayway.jsonpath:json-path:jar:2.9.0:test (version managed from 2.9.0)
+[[1;36mDEBUG[m]       jakarta.xml.bind:jakarta.xml.bind-api:jar:4.0.2:runtime (version managed from 4.0.2)
+[[1;36mDEBUG[m]          jakarta.activation:jakarta.activation-api:jar:2.1.3:runtime (version managed from 2.1.3)
+[[1;36mDEBUG[m]       net.minidev:json-smart:jar:2.5.2:test (version managed from 2.5.2)
+[[1;36mDEBUG[m]          net.minidev:accessors-smart:jar:2.5.2:test
+[[1;36mDEBUG[m]             org.ow2.asm:asm:jar:9.7.1:test
+[[1;36mDEBUG[m]       org.assertj:assertj-core:jar:3.27.3:test (version managed from 3.27.3)
+[[1;36mDEBUG[m]       org.awaitility:awaitility:jar:4.3.0:test (version managed from 4.3.0)
+[[1;36mDEBUG[m]       org.hamcrest:hamcrest:jar:3.0:test (version managed from 3.0)
+[[1;36mDEBUG[m]       org.junit.jupiter:junit-jupiter:jar:5.12.2:test (version managed from 5.12.2)
+[[1;36mDEBUG[m]          org.junit.jupiter:junit-jupiter-api:jar:5.12.2:test (version managed from 5.12.2)
+[[1;36mDEBUG[m]             org.opentest4j:opentest4j:jar:1.3.0:test
+[[1;36mDEBUG[m]             org.junit.platform:junit-platform-commons:jar:1.12.2:test (version managed from 1.12.2)
+[[1;36mDEBUG[m]             org.apiguardian:apiguardian-api:jar:1.1.2:test
+[[1;36mDEBUG[m]          org.junit.jupiter:junit-jupiter-params:jar:5.12.2:test (version managed from 5.12.2)
+[[1;36mDEBUG[m]          org.junit.jupiter:junit-jupiter-engine:jar:5.12.2:test (version managed from 5.12.2)
+[[1;36mDEBUG[m]             org.junit.platform:junit-platform-engine:jar:1.12.2:test (version managed from 1.12.2)
+[[1;36mDEBUG[m]       org.mockito:mockito-core:jar:5.17.0:test (version managed from 5.17.0)
+[[1;36mDEBUG[m]          net.bytebuddy:byte-buddy-agent:jar:1.17.5:test (version managed from 1.15.11)
+[[1;36mDEBUG[m]          org.objenesis:objenesis:jar:3.3:test
+[[1;36mDEBUG[m]       org.mockito:mockito-junit-jupiter:jar:5.17.0:test (version managed from 5.17.0)
+[[1;36mDEBUG[m]       org.skyscreamer:jsonassert:jar:1.5.3:test (version managed from 1.5.3)
+[[1;36mDEBUG[m]          com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1:test
+[[1;36mDEBUG[m]       org.springframework:spring-core:jar:6.2.7:compile (version managed from 6.2.7)
+[[1;36mDEBUG[m]          org.springframework:spring-jcl:jar:6.2.7:compile (version managed from 6.2.7)
+[[1;36mDEBUG[m]       org.springframework:spring-test:jar:6.2.7:test (version managed from 6.2.7)
+[[1;36mDEBUG[m]       org.xmlunit:xmlunit-core:jar:2.10.1:test (version managed from 2.10.1)
+[[1;36mDEBUG[m]    io.swagger.core.v3:swagger-annotations:jar:2.2.21:compile
+[[1;36mDEBUG[m]    jakarta.validation:jakarta.validation-api:jar:3.0.2:compile
+[[1;36mDEBUG[m]    jakarta.annotation:jakarta.annotation-api:jar:2.1.1:compile
+[[1;36mDEBUG[m]    org.openapitools:jackson-databind-nullable:jar:0.2.6:compile
+[[1;36mDEBUG[m]       com.fasterxml.jackson.core:jackson-databind:jar:2.19.0:compile (version managed from 2.14.0-rc2)
+[[1;36mDEBUG[m]          com.fasterxml.jackson.core:jackson-annotations:jar:2.19.0:compile (version managed from 2.19.0)
+[[1;36mDEBUG[m]          com.fasterxml.jackson.core:jackson-core:jar:2.19.0:compile (version managed from 2.19.0)
+[[1;36mDEBUG[m]    jakarta.servlet:jakarta.servlet-api:jar:6.0.0:provided
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:3.4.1:clean[m [1m(default-clean)[m @ [36mdemo[0;1m ---[m
+[[1;36mDEBUG[m] Dependency collection stats: {ConflictMarker.analyzeTime=22258, ConflictMarker.markTime=28512, ConflictMarker.nodeCount=2, ConflictIdSorter.graphTime=32194, ConflictIdSorter.topsortTime=6486, ConflictIdSorter.conflictIdCount=2, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=51491, ConflictResolver.conflictItemCount=2, DefaultDependencyCollector.collectTime=4265866, DefaultDependencyCollector.transformTime=176336}
+[[1;36mDEBUG[m] org.apache.maven.plugins:maven-clean-plugin:jar:3.4.1
+[[1;36mDEBUG[m]    org.codehaus.plexus:plexus-utils:jar:4.0.1:compile
+[[1;36mDEBUG[m] Created new class realm plugin>org.apache.maven.plugins:maven-clean-plugin:3.4.1
+[[1;36mDEBUG[m] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-clean-plugin:3.4.1
+[[1;36mDEBUG[m]   Imported:  < maven.api
+[[1;36mDEBUG[m] Populating class realm plugin>org.apache.maven.plugins:maven-clean-plugin:3.4.1
+[[1;36mDEBUG[m]   Included: org.apache.maven.plugins:maven-clean-plugin:jar:3.4.1
+[[1;36mDEBUG[m]   Included: org.codehaus.plexus:plexus-utils:jar:4.0.1
+[[1;36mDEBUG[m] Configuring mojo org.apache.maven.plugins:maven-clean-plugin:3.4.1:clean from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-clean-plugin:3.4.1, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@30946e09]
+[[1;36mDEBUG[m] Configuring mojo 'org.apache.maven.plugins:maven-clean-plugin:3.4.1:clean' with basic configurator -->
+[[1;36mDEBUG[m]   (f) directory = /home/victor/workspace/demo/target
+[[1;36mDEBUG[m]   (f) excludeDefaultDirectories = false
+[[1;36mDEBUG[m]   (f) failOnError = true
+[[1;36mDEBUG[m]   (f) fast = false
+[[1;36mDEBUG[m]   (f) fastMode = background
+[[1;36mDEBUG[m]   (f) followSymLinks = false
+[[1;36mDEBUG[m]   (f) outputDirectory = /home/victor/workspace/demo/target/classes
+[[1;36mDEBUG[m]   (f) reportDirectory = /home/victor/workspace/demo/target/classes
+[[1;36mDEBUG[m]   (f) retryOnError = true
+[[1;36mDEBUG[m]   (f) session = org.apache.maven.execution.MavenSession@2301b75
+[[1;36mDEBUG[m]   (f) skip = false
+[[1;36mDEBUG[m]   (f) testOutputDirectory = /home/victor/workspace/demo/target/test-classes
+[[1;36mDEBUG[m] -- end configuration --
+[[1;36mDEBUG[m] Skipping non-existing directory /home/victor/workspace/demo/target
+[[1;36mDEBUG[m] Skipping non-existing directory /home/victor/workspace/demo/target/classes
+[[1;36mDEBUG[m] Skipping non-existing directory /home/victor/workspace/demo/target/test-classes
+[[1;36mDEBUG[m] Skipping non-existing directory /home/victor/workspace/demo/target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mopenapi-generator-maven-plugin:6.2.1:generate[m [1m(generate-sources)[m @ [36mdemo[0;1m ---[m
+[[1;36mDEBUG[m] Dependency collection stats: {ConflictMarker.analyzeTime=456232, ConflictMarker.markTime=173566, ConflictMarker.nodeCount=283, ConflictIdSorter.graphTime=106143, ConflictIdSorter.topsortTime=60864, ConflictIdSorter.conflictIdCount=102, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=1847515, ConflictResolver.conflictItemCount=243, DefaultDependencyCollector.collectTime=186965499, DefaultDependencyCollector.transformTime=2674778}
+[[1;36mDEBUG[m] org.openapitools:openapi-generator-maven-plugin:jar:6.2.1
+[[1;36mDEBUG[m]    org.sonatype.plexus:plexus-build-api:jar:0.0.7:compile
+[[1;36mDEBUG[m]       org.codehaus.plexus:plexus-utils:jar:1.5.8:compile
+[[1;36mDEBUG[m]    org.apache.maven:maven-core:jar:3.8.5:compile
+[[1;36mDEBUG[m]       org.apache.maven:maven-model:jar:3.8.5:compile
+[[1;36mDEBUG[m]       org.apache.maven:maven-settings:jar:3.8.5:compile
+[[1;36mDEBUG[m]       org.apache.maven:maven-settings-builder:jar:3.8.5:compile
+[[1;36mDEBUG[m]          org.codehaus.plexus:plexus-sec-dispatcher:jar:2.0:compile
+[[1;36mDEBUG[m]             org.codehaus.plexus:plexus-cipher:jar:2.0:compile
+[[1;36mDEBUG[m]       org.apache.maven:maven-builder-support:jar:3.8.5:compile
+[[1;36mDEBUG[m]       org.apache.maven:maven-repository-metadata:jar:3.8.5:compile
+[[1;36mDEBUG[m]       org.apache.maven:maven-artifact:jar:3.8.5:compile
+[[1;36mDEBUG[m]       org.apache.maven:maven-model-builder:jar:3.8.5:compile
+[[1;36mDEBUG[m]       org.apache.maven:maven-resolver-provider:jar:3.8.5:compile
+[[1;36mDEBUG[m]       org.apache.maven.resolver:maven-resolver-impl:jar:1.6.3:compile
+[[1;36mDEBUG[m]       org.apache.maven.resolver:maven-resolver-api:jar:1.6.3:compile
+[[1;36mDEBUG[m]       org.apache.maven.resolver:maven-resolver-spi:jar:1.6.3:compile
+[[1;36mDEBUG[m]       org.apache.maven.resolver:maven-resolver-util:jar:1.6.3:compile
+[[1;36mDEBUG[m]       org.apache.maven.shared:maven-shared-utils:jar:3.3.4:compile
+[[1;36mDEBUG[m]       org.eclipse.sisu:org.eclipse.sisu.plexus:jar:0.3.5:compile
+[[1;36mDEBUG[m]          javax.annotation:javax.annotation-api:jar:1.2:compile
+[[1;36mDEBUG[m]       org.eclipse.sisu:org.eclipse.sisu.inject:jar:0.3.5:compile
+[[1;36mDEBUG[m]       com.google.inject:guice:jar:no_aop:4.2.2:compile
+[[1;36mDEBUG[m]          aopalliance:aopalliance:jar:1.0:compile
+[[1;36mDEBUG[m]       javax.inject:javax.inject:jar:1:compile
+[[1;36mDEBUG[m]       org.codehaus.plexus:plexus-classworlds:jar:2.6.0:compile
+[[1;36mDEBUG[m]       org.codehaus.plexus:plexus-interpolation:jar:1.26:compile
+[[1;36mDEBUG[m]       org.codehaus.plexus:plexus-component-annotations:jar:2.1.0:compile
+[[1;36mDEBUG[m]       org.apache.commons:commons-lang3:jar:3.8.1:compile
+[[1;36mDEBUG[m]       org.slf4j:slf4j-api:jar:1.7.32:compile
+[[1;36mDEBUG[m]    org.apache.maven:maven-compat:jar:3.8.5:compile
+[[1;36mDEBUG[m]       org.apache.maven.wagon:wagon-provider-api:jar:3.5.1:compile
+[[1;36mDEBUG[m]    org.apache.maven:maven-plugin-api:jar:3.8.5:compile
+[[1;36mDEBUG[m]    org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.6.4:compile
+[[1;36mDEBUG[m]    org.openapitools:openapi-generator:jar:6.2.1:compile
+[[1;36mDEBUG[m]       io.swagger.parser.v3:swagger-parser:jar:2.1.6:compile
+[[1;36mDEBUG[m]          io.swagger.parser.v3:swagger-parser-v2-converter:jar:2.1.6:compile
+[[1;36mDEBUG[m]             io.swagger:swagger-core:jar:1.6.8:compile
+[[1;36mDEBUG[m]                io.swagger:swagger-models:jar:1.6.8:compile
+[[1;36mDEBUG[m]                   io.swagger:swagger-annotations:jar:1.6.8:compile
+[[1;36mDEBUG[m]                javax.validation:validation-api:jar:1.1.0.Final:compile
+[[1;36mDEBUG[m]             io.swagger:swagger-parser:jar:1.0.63:compile
+[[1;36mDEBUG[m]             io.swagger:swagger-compat-spec-parser:jar:1.0.63:compile
+[[1;36mDEBUG[m]                com.github.java-json-tools:json-schema-validator:jar:2.2.14:compile
+[[1;36mDEBUG[m]                   com.github.java-json-tools:jackson-coreutils-equivalence:jar:1.0:compile
+[[1;36mDEBUG[m]                   com.github.java-json-tools:json-schema-core:jar:1.2.14:compile
+[[1;36mDEBUG[m]                      com.github.java-json-tools:uri-template:jar:0.10:compile
+[[1;36mDEBUG[m]                      org.mozilla:rhino:jar:1.7.7.2:compile
+[[1;36mDEBUG[m]                   com.sun.mail:mailapi:jar:1.6.2:compile
+[[1;36mDEBUG[m]                   com.googlecode.libphonenumber:libphonenumber:jar:8.11.1:compile
+[[1;36mDEBUG[m]                   net.sf.jopt-simple:jopt-simple:jar:5.0.4:compile
+[[1;36mDEBUG[m]                com.github.java-json-tools:json-patch:jar:1.13:compile
+[[1;36mDEBUG[m]                   com.github.java-json-tools:msg-simple:jar:1.2:compile
+[[1;36mDEBUG[m]                      com.github.java-json-tools:btf:jar:1.3:compile
+[[1;36mDEBUG[m]                   com.github.java-json-tools:jackson-coreutils:jar:2.0:compile
+[[1;36mDEBUG[m]                org.apache.httpcomponents:httpclient:jar:4.5.13:compile
+[[1;36mDEBUG[m]                   org.apache.httpcomponents:httpcore:jar:4.4.13:compile
+[[1;36mDEBUG[m]                   commons-logging:commons-logging:jar:1.2:compile
+[[1;36mDEBUG[m]                   commons-codec:commons-codec:jar:1.11:compile
+[[1;36mDEBUG[m]             io.swagger.core.v3:swagger-models:jar:2.2.4:compile
+[[1;36mDEBUG[m]             io.swagger.parser.v3:swagger-parser-core:jar:2.1.6:compile
+[[1;36mDEBUG[m]          io.swagger.parser.v3:swagger-parser-v3:jar:2.1.6:compile
+[[1;36mDEBUG[m]             io.swagger.core.v3:swagger-core:jar:2.2.4:compile
+[[1;36mDEBUG[m]                jakarta.xml.bind:jakarta.xml.bind-api:jar:2.3.2:compile
+[[1;36mDEBUG[m]                   jakarta.activation:jakarta.activation-api:jar:1.2.1:compile
+[[1;36mDEBUG[m]                com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.13.4:compile
+[[1;36mDEBUG[m]                io.swagger.core.v3:swagger-annotations:jar:2.2.4:compile
+[[1;36mDEBUG[m]                jakarta.validation:jakarta.validation-api:jar:2.0.2:compile
+[[1;36mDEBUG[m]             com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.13.4:compile
+[[1;36mDEBUG[m]          org.yaml:snakeyaml:jar:1.33:compile
+[[1;36mDEBUG[m]       com.samskivert:jmustache:jar:1.14:compile
+[[1;36mDEBUG[m]       com.github.jknack:handlebars:jar:4.2.1:compile
+[[1;36mDEBUG[m]       com.github.jknack:handlebars-jackson2:jar:4.2.1:compile
+[[1;36mDEBUG[m]       commons-io:commons-io:jar:2.11.0:compile
+[[1;36mDEBUG[m]       org.slf4j:slf4j-ext:jar:1.7.36:compile
+[[1;36mDEBUG[m]       org.slf4j:slf4j-simple:jar:1.7.36:compile
+[[1;36mDEBUG[m]       org.apache.commons:commons-text:jar:1.10.0:compile
+[[1;36mDEBUG[m]       commons-cli:commons-cli:jar:1.4:compile
+[[1;36mDEBUG[m]       com.google.guava:guava:jar:30.1.1-jre:compile
+[[1;36mDEBUG[m]          com.google.guava:failureaccess:jar:1.0.1:compile
+[[1;36mDEBUG[m]          com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile
+[[1;36mDEBUG[m]          com.google.code.findbugs:jsr305:jar:3.0.2:compile
+[[1;36mDEBUG[m]          org.checkerframework:checker-qual:jar:3.8.0:compile
+[[1;36mDEBUG[m]          com.google.errorprone:error_prone_annotations:jar:2.5.1:compile
+[[1;36mDEBUG[m]          com.google.j2objc:j2objc-annotations:jar:1.3:compile
+[[1;36mDEBUG[m]       com.fasterxml.jackson.datatype:jackson-datatype-guava:jar:2.13.4:compile
+[[1;36mDEBUG[m]          com.fasterxml.jackson.core:jackson-core:jar:2.13.4:compile
+[[1;36mDEBUG[m]       com.atlassian.commonmark:commonmark:jar:0.11.0:compile
+[[1;36mDEBUG[m]       com.github.mifmif:generex:jar:1.0.2:compile
+[[1;36mDEBUG[m]          dk.brics.automaton:automaton:jar:1.11-8:compile
+[[1;36mDEBUG[m]       com.github.curious-odd-man:rgxgen:jar:1.3:compile
+[[1;36mDEBUG[m]       com.fasterxml.jackson.core:jackson-databind:jar:2.13.4.2:compile
+[[1;36mDEBUG[m]          com.fasterxml.jackson.core:jackson-annotations:jar:2.13.4:compile
+[[1;36mDEBUG[m]       com.fasterxml.jackson.datatype:jackson-datatype-joda:jar:2.13.4:compile
+[[1;36mDEBUG[m]          joda-time:joda-time:jar:2.10.8:compile
+[[1;36mDEBUG[m]       com.github.joschi.jackson:jackson-datatype-threetenbp:jar:2.10.0:compile
+[[1;36mDEBUG[m]          org.threeten:threetenbp:jar:1.4.0:compile
+[[1;36mDEBUG[m]       org.openapitools:openapi-generator-core:jar:6.2.1:compile
+[[1;36mDEBUG[m]       net.java.dev.jna:jna:jar:5.5.0:compile
+[[1;36mDEBUG[m]       com.github.ben-manes.caffeine:caffeine:jar:2.8.1:compile
+[[1;36mDEBUG[m] Created new class realm plugin>org.openapitools:openapi-generator-maven-plugin:6.2.1
+[[1;36mDEBUG[m] Importing foreign packages into class realm plugin>org.openapitools:openapi-generator-maven-plugin:6.2.1
+[[1;36mDEBUG[m]   Imported:  < maven.api
+[[1;36mDEBUG[m] Populating class realm plugin>org.openapitools:openapi-generator-maven-plugin:6.2.1
+[[1;36mDEBUG[m]   Included: org.openapitools:openapi-generator-maven-plugin:jar:6.2.1
+[[1;36mDEBUG[m]   Included: org.sonatype.plexus:plexus-build-api:jar:0.0.7
+[[1;36mDEBUG[m]   Included: org.codehaus.plexus:plexus-utils:jar:1.5.8
+[[1;36mDEBUG[m]   Included: org.codehaus.plexus:plexus-sec-dispatcher:jar:2.0
+[[1;36mDEBUG[m]   Included: org.codehaus.plexus:plexus-cipher:jar:2.0
+[[1;36mDEBUG[m]   Included: org.apache.maven:maven-builder-support:jar:3.8.5
+[[1;36mDEBUG[m]   Included: org.apache.maven.resolver:maven-resolver-util:jar:1.6.3
+[[1;36mDEBUG[m]   Included: org.apache.maven.shared:maven-shared-utils:jar:3.3.4
+[[1;36mDEBUG[m]   Included: javax.annotation:javax.annotation-api:jar:1.2
+[[1;36mDEBUG[m]   Included: org.eclipse.sisu:org.eclipse.sisu.inject:jar:0.3.5
+[[1;36mDEBUG[m]   Included: com.google.inject:guice:jar:no_aop:4.2.2
+[[1;36mDEBUG[m]   Included: aopalliance:aopalliance:jar:1.0
+[[1;36mDEBUG[m]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.26
+[[1;36mDEBUG[m]   Included: org.codehaus.plexus:plexus-component-annotations:jar:2.1.0
+[[1;36mDEBUG[m]   Included: org.apache.commons:commons-lang3:jar:3.8.1
+[[1;36mDEBUG[m]   Included: org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.6.4
+[[1;36mDEBUG[m]   Included: org.openapitools:openapi-generator:jar:6.2.1
+[[1;36mDEBUG[m]   Included: io.swagger.parser.v3:swagger-parser:jar:2.1.6
+[[1;36mDEBUG[m]   Included: io.swagger.parser.v3:swagger-parser-v2-converter:jar:2.1.6
+[[1;36mDEBUG[m]   Included: io.swagger:swagger-core:jar:1.6.8
+[[1;36mDEBUG[m]   Included: io.swagger:swagger-models:jar:1.6.8
+[[1;36mDEBUG[m]   Included: io.swagger:swagger-annotations:jar:1.6.8
+[[1;36mDEBUG[m]   Included: javax.validation:validation-api:jar:1.1.0.Final
+[[1;36mDEBUG[m]   Included: io.swagger:swagger-parser:jar:1.0.63
+[[1;36mDEBUG[m]   Included: io.swagger:swagger-compat-spec-parser:jar:1.0.63
+[[1;36mDEBUG[m]   Included: com.github.java-json-tools:json-schema-validator:jar:2.2.14
+[[1;36mDEBUG[m]   Included: com.github.java-json-tools:jackson-coreutils-equivalence:jar:1.0
+[[1;36mDEBUG[m]   Included: com.github.java-json-tools:json-schema-core:jar:1.2.14
+[[1;36mDEBUG[m]   Included: com.github.java-json-tools:uri-template:jar:0.10
+[[1;36mDEBUG[m]   Included: org.mozilla:rhino:jar:1.7.7.2
+[[1;36mDEBUG[m]   Included: com.sun.mail:mailapi:jar:1.6.2
+[[1;36mDEBUG[m]   Included: com.googlecode.libphonenumber:libphonenumber:jar:8.11.1
+[[1;36mDEBUG[m]   Included: net.sf.jopt-simple:jopt-simple:jar:5.0.4
+[[1;36mDEBUG[m]   Included: com.github.java-json-tools:json-patch:jar:1.13
+[[1;36mDEBUG[m]   Included: com.github.java-json-tools:msg-simple:jar:1.2
+[[1;36mDEBUG[m]   Included: com.github.java-json-tools:btf:jar:1.3
+[[1;36mDEBUG[m]   Included: com.github.java-json-tools:jackson-coreutils:jar:2.0
+[[1;36mDEBUG[m]   Included: org.apache.httpcomponents:httpclient:jar:4.5.13
+[[1;36mDEBUG[m]   Included: org.apache.httpcomponents:httpcore:jar:4.4.13
+[[1;36mDEBUG[m]   Included: commons-logging:commons-logging:jar:1.2
+[[1;36mDEBUG[m]   Included: commons-codec:commons-codec:jar:1.11
+[[1;36mDEBUG[m]   Included: io.swagger.core.v3:swagger-models:jar:2.2.4
+[[1;36mDEBUG[m]   Included: io.swagger.parser.v3:swagger-parser-core:jar:2.1.6
+[[1;36mDEBUG[m]   Included: io.swagger.parser.v3:swagger-parser-v3:jar:2.1.6
+[[1;36mDEBUG[m]   Included: io.swagger.core.v3:swagger-core:jar:2.2.4
+[[1;36mDEBUG[m]   Included: jakarta.xml.bind:jakarta.xml.bind-api:jar:2.3.2
+[[1;36mDEBUG[m]   Included: jakarta.activation:jakarta.activation-api:jar:1.2.1
+[[1;36mDEBUG[m]   Included: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.13.4
+[[1;36mDEBUG[m]   Included: io.swagger.core.v3:swagger-annotations:jar:2.2.4
+[[1;36mDEBUG[m]   Included: jakarta.validation:jakarta.validation-api:jar:2.0.2
+[[1;36mDEBUG[m]   Included: com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.13.4
+[[1;36mDEBUG[m]   Included: org.yaml:snakeyaml:jar:1.33
+[[1;36mDEBUG[m]   Included: com.samskivert:jmustache:jar:1.14
+[[1;36mDEBUG[m]   Included: com.github.jknack:handlebars:jar:4.2.1
+[[1;36mDEBUG[m]   Included: com.github.jknack:handlebars-jackson2:jar:4.2.1
+[[1;36mDEBUG[m]   Included: commons-io:commons-io:jar:2.11.0
+[[1;36mDEBUG[m]   Included: org.slf4j:slf4j-ext:jar:1.7.36
+[[1;36mDEBUG[m]   Included: org.slf4j:slf4j-simple:jar:1.7.36
+[[1;36mDEBUG[m]   Included: org.apache.commons:commons-text:jar:1.10.0
+[[1;36mDEBUG[m]   Included: commons-cli:commons-cli:jar:1.4
+[[1;36mDEBUG[m]   Included: com.google.guava:guava:jar:30.1.1-jre
+[[1;36mDEBUG[m]   Included: com.google.guava:failureaccess:jar:1.0.1
+[[1;36mDEBUG[m]   Included: com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava
+[[1;36mDEBUG[m]   Included: com.google.code.findbugs:jsr305:jar:3.0.2
+[[1;36mDEBUG[m]   Included: org.checkerframework:checker-qual:jar:3.8.0
+[[1;36mDEBUG[m]   Included: com.google.errorprone:error_prone_annotations:jar:2.5.1
+[[1;36mDEBUG[m]   Included: com.google.j2objc:j2objc-annotations:jar:1.3
+[[1;36mDEBUG[m]   Included: com.fasterxml.jackson.datatype:jackson-datatype-guava:jar:2.13.4
+[[1;36mDEBUG[m]   Included: com.fasterxml.jackson.core:jackson-core:jar:2.13.4
+[[1;36mDEBUG[m]   Included: com.atlassian.commonmark:commonmark:jar:0.11.0
+[[1;36mDEBUG[m]   Included: com.github.mifmif:generex:jar:1.0.2
+[[1;36mDEBUG[m]   Included: dk.brics.automaton:automaton:jar:1.11-8
+[[1;36mDEBUG[m]   Included: com.github.curious-odd-man:rgxgen:jar:1.3
+[[1;36mDEBUG[m]   Included: com.fasterxml.jackson.core:jackson-databind:jar:2.13.4.2
+[[1;36mDEBUG[m]   Included: com.fasterxml.jackson.core:jackson-annotations:jar:2.13.4
+[[1;36mDEBUG[m]   Included: com.fasterxml.jackson.datatype:jackson-datatype-joda:jar:2.13.4
+[[1;36mDEBUG[m]   Included: joda-time:joda-time:jar:2.10.8
+[[1;36mDEBUG[m]   Included: com.github.joschi.jackson:jackson-datatype-threetenbp:jar:2.10.0
+[[1;36mDEBUG[m]   Included: org.threeten:threetenbp:jar:1.4.0
+[[1;36mDEBUG[m]   Included: org.openapitools:openapi-generator-core:jar:6.2.1
+[[1;36mDEBUG[m]   Included: net.java.dev.jna:jna:jar:5.5.0
+[[1;36mDEBUG[m]   Included: com.github.ben-manes.caffeine:caffeine:jar:2.8.1
+[[1;36mDEBUG[m] Configuring mojo org.openapitools:openapi-generator-maven-plugin:6.2.1:generate from plugin realm ClassRealm[plugin>org.openapitools:openapi-generator-maven-plugin:6.2.1, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@30946e09]
+[[1;36mDEBUG[m] Configuring mojo 'org.openapitools:openapi-generator-maven-plugin:6.2.1:generate' with basic configurator -->
+[[1;36mDEBUG[m]   (f) addCompileSourceRoot = true
+[[1;36mDEBUG[m]   (f) addTestCompileSourceRoot = false
+[[1;36mDEBUG[m]   (f) additionalProperties = []
+[[1;36mDEBUG[m]   (f) apiPackage = com.inditex.demo.infrastructure.controller
+[[1;36mDEBUG[m]   (f) configOptions = {interfaceOnly=true, skipDefaultInterface=true, useSpringBoot3=true, useTags=true}
+[[1;36mDEBUG[m]   (f) engine = mustache
+[[1;36mDEBUG[m]   (f) generatorName = spring
+[[1;36mDEBUG[m]   (f) importMappings = []
+[[1;36mDEBUG[m]   (f) inlineSchemaNameDefaults = []
+[[1;36mDEBUG[m]   (f) inlineSchemaNameMappings = []
+[[1;36mDEBUG[m]   (f) inputSpec = /home/victor/workspace/demo/src/main/resources/openapi/openapi.yaml
+[[1;36mDEBUG[m]   (f) instantiationTypes = []
+[[1;36mDEBUG[m]   (f) languageSpecificPrimitives = []
+[[1;36mDEBUG[m]   (f) modelPackage = com.inditex.demo.infrastructure.dto
+[[1;36mDEBUG[m]   (f) mojo = org.openapitools:openapi-generator-maven-plugin:6.2.1:generate {execution: generate-sources}
+[[1;36mDEBUG[m]   (f) output = /home/victor/workspace/demo/target/generated-sources/openapi
+[[1;36mDEBUG[m]   (f) project = MavenProject: com.inditex:demo:0.0.1-SNAPSHOT @ /home/victor/workspace/demo/pom.xml
+[[1;36mDEBUG[m]   (f) reservedWordsMappings = []
+[[1;36mDEBUG[m]   (f) schemaMappings = []
+[[1;36mDEBUG[m]   (f) serverVariableOverrides = []
+[[1;36mDEBUG[m]   (f) skip = false
+[[1;36mDEBUG[m]   (f) skipIfSpecIsUnchanged = false
+[[1;36mDEBUG[m]   (f) typeMappings = []
+[[1;36mDEBUG[m]   (f) verbose = false
+[[1;36mDEBUG[m] -- end configuration --
+[[1;36mDEBUG[m] GeneratorSettings#build: %s
+[[1;36mDEBUG[m] verbmapping: adding  BulkLoadLoad => Import
+[[1;36mDEBUG[m] verbmapping: adding End => Stop
+[[1;36mDEBUG[m] verbmapping: adding Kill => Stop
+[[1;36mDEBUG[m] verbmapping: adding Terminate => Stop
+[[1;36mDEBUG[m] verbmapping: adding Cancel => Stop
+[[1;36mDEBUG[m] verbmapping: adding  Change => Edit
+[[1;36mDEBUG[m] verbmapping: adding  Update => Edit
+[[1;36mDEBUG[m] verbmapping: adding Modify => Edit
+[[1;36mDEBUG[m] verbmapping: skipped Clear
+[[1;36mDEBUG[m] verbmapping: adding Cut => Remove
+[[1;36mDEBUG[m] verbmapping: adding Dispose => Remove
+[[1;36mDEBUG[m] verbmapping: adding Discard => Remove
+[[1;36mDEBUG[m] verbmapping: adding Erase => Remove
+[[1;36mDEBUG[m] verbmapping: skipped Block
+[[1;36mDEBUG[m] verbmapping: adding Object => Deny
+[[1;36mDEBUG[m] verbmapping: adding Refuse => Deny
+[[1;36mDEBUG[m] verbmapping: adding Reject => Deny
+[[1;36mDEBUG[m] verbmapping: adding  Erase => Initialize
+[[1;36mDEBUG[m] verbmapping: adding  Init => Initialize
+[[1;36mDEBUG[m] verbmapping: adding  Renew => Initialize
+[[1;36mDEBUG[m] verbmapping: adding  Rebuild => Initialize
+[[1;36mDEBUG[m] verbmapping: adding  Reinitialize => Initialize
+[[1;36mDEBUG[m] verbmapping: adding Setup => Initialize
+[[1;36mDEBUG[m] verbmapping: adding Certify => Assert
+[[1;36mDEBUG[m] verbmapping: adding RemoveDisable => Revoke
+[[1;36mDEBUG[m] verbmapping: adding Calculate => Measure
+[[1;36mDEBUG[m] verbmapping: adding Determine => Measure
+[[1;36mDEBUG[m] verbmapping: adding Analyze => Measure
+[[1;36mDEBUG[m] verbmapping: adding   Diff => Compare
+[[1;36mDEBUG[m] verbmapping: adding  Export => ConvertFrom
+[[1;36mDEBUG[m] verbmapping: adding  Output => ConvertFrom
+[[1;36mDEBUG[m] verbmapping: skipped Out
+[[1;36mDEBUG[m] verbmapping: adding FixRestore => Repair
+[[1;36mDEBUG[m] verbmapping: adding HaltHide => Disable
+[[1;36mDEBUG[m] verbmapping: adding PopOut => Exit
+[[1;36mDEBUG[m] verbmapping: adding JoinTelnet => Connect
+[[1;36mDEBUG[m] verbmapping: adding Release => Unlock
+[[1;36mDEBUG[m] verbmapping: adding Unrestrict => Unlock
+[[1;36mDEBUG[m] verbmapping: adding Unsecure => Unlock
+[[1;36mDEBUG[m] verbmapping: skipped Read
+[[1;36mDEBUG[m] verbmapping: skipped Open
+[[1;36mDEBUG[m] verbmapping: adding Cat => Get
+[[1;36mDEBUG[m] verbmapping: adding Type => Get
+[[1;36mDEBUG[m] verbmapping: adding Dir => Get
+[[1;36mDEBUG[m] verbmapping: adding Obtain => Get
+[[1;36mDEBUG[m] verbmapping: adding Dump => Get
+[[1;36mDEBUG[m] verbmapping: adding Acquire => Get
+[[1;36mDEBUG[m] verbmapping: adding Examine => Get
+[[1;36mDEBUG[m] verbmapping: skipped Find
+[[1;36mDEBUG[m] verbmapping: skipped Search
+[[1;36mDEBUG[m] verbmapping: adding  ExplodeUncompress => Expand
+[[1;36mDEBUG[m] verbmapping: adding DisplayProduce => Show
+[[1;36mDEBUG[m] verbmapping: adding parate => Split
+[[1;36mDEBUG[m] verbmapping: skipped Block
+[[1;36mDEBUG[m] verbmapping: adding PutPrint => Write
+[[1;36mDEBUG[m] verbmapping: adding  Aggregate => Group
+[[1;36mDEBUG[m] verbmapping: adding  Arrange => Group
+[[1;36mDEBUG[m] verbmapping: adding  Associate => Group
+[[1;36mDEBUG[m] verbmapping: adding Correlate => Group
+[[1;36mDEBUG[m] verbmapping: skipped Write
+[[1;36mDEBUG[m] verbmapping: skipped Reset
+[[1;36mDEBUG[m] verbmapping: adding Assign => Set
+[[1;36mDEBUG[m] verbmapping: adding Configure => Set
+[[1;36mDEBUG[m] verbmapping: adding  Uninstall => Unpublish
+[[1;36mDEBUG[m] verbmapping: adding  Revert => Unpublish
+[[1;36mDEBUG[m] verbmapping: skipped Hide
+[[1;36mDEBUG[m] verbmapping: adding Acknowledge => Confirm
+[[1;36mDEBUG[m] verbmapping: adding Agree => Confirm
+[[1;36mDEBUG[m] verbmapping: adding Certify => Confirm
+[[1;36mDEBUG[m] verbmapping: adding Validate => Confirm
+[[1;36mDEBUG[m] verbmapping: adding Verify => Confirm
+[[1;36mDEBUG[m] verbmapping: adding Recycle => Restart
+[[1;36mDEBUG[m] verbmapping: adding RunStart => Invoke
+[[1;36mDEBUG[m] verbmapping: adding  ExtractBackup => Export
+[[1;36mDEBUG[m] verbmapping: adding StartBegin => Enable
+[[1;36mDEBUG[m] verbmapping: adding Encrypt => Protect
+[[1;36mDEBUG[m] verbmapping: adding Safeguard => Protect
+[[1;36mDEBUG[m] verbmapping: adding Seal => Protect
+[[1;36mDEBUG[m] verbmapping: adding  Change => Convert
+[[1;36mDEBUG[m] verbmapping: adding  Resize => Convert
+[[1;36mDEBUG[m] verbmapping: adding Resample => Convert
+[[1;36mDEBUG[m] verbmapping: adding Combine => Join
+[[1;36mDEBUG[m] verbmapping: adding Unite => Join
+[[1;36mDEBUG[m] verbmapping: skipped Connect
+[[1;36mDEBUG[m] verbmapping: adding Associate => Join
+[[1;36mDEBUG[m] verbmapping: adding ExpandDetermine => Resolve
+[[1;36mDEBUG[m] verbmapping: adding RestrictSecure => Lock
+[[1;36mDEBUG[m] verbmapping: adding   Diff => Checkpoint
+[[1;36mDEBUG[m] verbmapping: adding  CombineJoin => Merge
+[[1;36mDEBUG[m] verbmapping: adding FindLocate => Select
+[[1;36mDEBUG[m] verbmapping: skipped Read
+[[1;36mDEBUG[m] verbmapping: adding Accept => Receive
+[[1;36mDEBUG[m] verbmapping: adding Peek => Receive
+[[1;36mDEBUG[m] verbmapping: adding Post => Submit
+[[1;36mDEBUG[m] verbmapping: adding Append => Add
+[[1;36mDEBUG[m] verbmapping: adding Attach => Add
+[[1;36mDEBUG[m] verbmapping: adding Concatenate => Add
+[[1;36mDEBUG[m] verbmapping: adding Insert => Add
+[[1;36mDEBUG[m] verbmapping: adding Create => New
+[[1;36mDEBUG[m] verbmapping: adding Generate => New
+[[1;36mDEBUG[m] verbmapping: skipped Build
+[[1;36mDEBUG[m] verbmapping: adding Make => New
+[[1;36mDEBUG[m] verbmapping: adding Allocate => New
+[[1;36mDEBUG[m] verbmapping: adding Launch => Start
+[[1;36mDEBUG[m] verbmapping: adding Initiate => Start
+[[1;36mDEBUG[m] verbmapping: adding Boot => Start
+[[1;36mDEBUG[m] verbmapping: adding  Connect => Mount
+[[1;36mDEBUG[m] verbmapping: adding  Refresh => Update
+[[1;36mDEBUG[m] verbmapping: adding  Renew => Update
+[[1;36mDEBUG[m] verbmapping: adding  Recalculate => Update
+[[1;36mDEBUG[m] verbmapping: adding Re-index => Update
+[[1;36mDEBUG[m] verbmapping: adding Put => Send
+[[1;36mDEBUG[m] verbmapping: adding Broadcast => Send
+[[1;36mDEBUG[m] verbmapping: adding Mail => Send
+[[1;36mDEBUG[m] verbmapping: adding Fax => Send
+[[1;36mDEBUG[m] verbmapping: adding Acquire => Read
+[[1;36mDEBUG[m] verbmapping: adding Prompt => Read
+[[1;36mDEBUG[m] verbmapping: skipped Get
+[[1;36mDEBUG[m] verbmapping: adding Diagnose => Test
+[[1;36mDEBUG[m] verbmapping: adding Analyze => Test
+[[1;36mDEBUG[m] verbmapping: adding Salvage => Test
+[[1;36mDEBUG[m] verbmapping: adding Verify => Test
+[[1;36mDEBUG[m] verbmapping: adding FindLocate => Search
+[[1;36mDEBUG[m] verbmapping: adding  Replicate => Sync
+[[1;36mDEBUG[m] verbmapping: adding  Coerce => Sync
+[[1;36mDEBUG[m] verbmapping: adding Match => Sync
+[[1;36mDEBUG[m] verbmapping: adding Setup => Install
+[[1;36mDEBUG[m] verbmapping: adding   Compact => Compress
+[[1;36mDEBUG[m] verbmapping: adding Duplicate => Copy
+[[1;36mDEBUG[m] verbmapping: adding Clone => Copy
+[[1;36mDEBUG[m] verbmapping: adding Replicate => Copy
+[[1;36mDEBUG[m] verbmapping: skipped Sync
+[[1;36mDEBUG[m] verbmapping: adding PushInto => Enter
+[[1;36mDEBUG[m] verbmapping: adding BypassJump => Skip
+[[1;36mDEBUG[m] verbmapping: adding Prevent => Block
+[[1;36mDEBUG[m] verbmapping: skipped Limit
+[[1;36mDEBUG[m] verbmapping: skipped Deny
+[[1;36mDEBUG[m] verbmapping: adding SleepPause => Wait
+[[1;36mDEBUG[m] verbmapping: adding  UnmountUnlink => Dismount
+[[1;36mDEBUG[m] verbmapping: adding  Save => Backup
+[[1;36mDEBUG[m] verbmapping: adding  Burn => Backup
+[[1;36mDEBUG[m] verbmapping: adding  Replicate => Backup
+[[1;36mDEBUG[m] verbmapping: skipped Sync
+[[1;36mDEBUG[m] verbmapping: adding Pause => Suspend
+[[1;36mDEBUG[m] verbmapping: adding ClearAllow => Unblock
+[[1;36mDEBUG[m] verbmapping: adding  Repair => Restore
+[[1;36mDEBUG[m] verbmapping: adding  Return => Restore
+[[1;36mDEBUG[m] verbmapping: adding  Undo => Restore
+[[1;36mDEBUG[m] verbmapping: adding Fix => Restore
+[[1;36mDEBUG[m] verbmapping: adding Flush => Clear
+[[1;36mDEBUG[m] verbmapping: adding Erase => Clear
+[[1;36mDEBUG[m] verbmapping: adding Release => Clear
+[[1;36mDEBUG[m] verbmapping: adding Unmark => Clear
+[[1;36mDEBUG[m] verbmapping: adding Unset => Clear
+[[1;36mDEBUG[m] verbmapping: adding Nullify => Clear
+[[1;36mDEBUG[m] verbmapping: adding BreakLogoff => Disconnect
+[[1;36mDEBUG[m] verbmapping: adding Transfer => Move
+[[1;36mDEBUG[m] verbmapping: adding Name => Move
+[[1;36mDEBUG[m] verbmapping: adding Migrate => Move
+[[1;36mDEBUG[m] verbmapping: adding  Deploy => Publish
+[[1;36mDEBUG[m] verbmapping: adding  Release => Publish
+[[1;36mDEBUG[m] verbmapping: skipped Install
+[[1;36mDEBUG[m] verbmapping: adding Diagnose => Debug
+[[1;36mDEBUG[m] verbmapping: adding AllowEnable => Grant
+[[1;36mDEBUG[m] verbmapping: adding Change => Rename
+[[1;36mDEBUG[m] verbmapping: adding Track => Trace
+[[1;36mDEBUG[m] verbmapping: adding Follow => Trace
+[[1;36mDEBUG[m] verbmapping: adding Inspect => Trace
+[[1;36mDEBUG[m] verbmapping: adding Dig => Trace
+[[1;36mDEBUG[m] verbmapping: adding  Import => ConvertTo
+[[1;36mDEBUG[m] verbmapping: adding  Input => ConvertTo
+[[1;36mDEBUG[m] verbmapping: adding In => ConvertTo
+[[1;36mDEBUG[m] verbmapping: adding DecryptUnseal => Unprotect
+[[1;36mDEBUG[m] verbmapping: skipped Remove
+[[1;36mDEBUG[m] verbmapping: adding   Quota => Limit
+[[1;36mDEBUG[m] WorkflowSettings#build: %s
+[[1;33mWARNING[m] Exception while reading:
+[1;31mio.swagger.v3.parser.exception.ReadContentException[m: [1;31mUnable to read location `/home/victor/workspace/demo/src/main/resources/openapi/openapi.yaml`[m
+    [1mat[m io.swagger.v3.parser.OpenAPIV3Parser.readContentFromLocation ([1mOpenAPIV3Parser.java:295[m)
+    [1mat[m io.swagger.v3.parser.OpenAPIV3Parser.readLocation ([1mOpenAPIV3Parser.java:92[m)
+    [1mat[m io.swagger.parser.OpenAPIParser.readLocation ([1mOpenAPIParser.java:16[m)
+    [1mat[m org.openapitools.codegen.config.CodegenConfigurator.toContext ([1mCodegenConfigurator.java:573[m)
+    [1mat[m org.openapitools.codegen.config.CodegenConfigurator.toClientOptInput ([1mCodegenConfigurator.java:631[m)
+    [1mat[m org.openapitools.codegen.plugin.CodeGenMojo.execute ([1mCodeGenMojo.java:798[m)
+    [1mat[m org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo ([1mDefaultBuildPluginManager.java:137[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:210[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:156[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:148[m)
+    [1mat[m org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject ([1mLifecycleModuleBuilder.java:117[m)
+    [1mat[m org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject ([1mLifecycleModuleBuilder.java:81[m)
+    [1mat[m org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build ([1mSingleThreadedBuilder.java:56[m)
+    [1mat[m org.apache.maven.lifecycle.internal.LifecycleStarter.execute ([1mLifecycleStarter.java:128[m)
+    [1mat[m org.apache.maven.DefaultMaven.doExecute ([1mDefaultMaven.java:305[m)
+    [1mat[m org.apache.maven.DefaultMaven.doExecute ([1mDefaultMaven.java:192[m)
+    [1mat[m org.apache.maven.DefaultMaven.execute ([1mDefaultMaven.java:105[m)
+    [1mat[m org.apache.maven.cli.MavenCli.execute ([1mMavenCli.java:957[m)
+    [1mat[m org.apache.maven.cli.MavenCli.doMain ([1mMavenCli.java:289[m)
+    [1mat[m org.apache.maven.cli.MavenCli.main ([1mMavenCli.java:193[m)
+    [1mat[m jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 ([1mNative Method[m)
+    [1mat[m jdk.internal.reflect.NativeMethodAccessorImpl.invoke ([1mNativeMethodAccessorImpl.java:77[m)
+    [1mat[m jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke ([1mDelegatingMethodAccessorImpl.java:43[m)
+    [1mat[m java.lang.reflect.Method.invoke ([1mMethod.java:569[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced ([1mLauncher.java:282[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.launch ([1mLauncher.java:225[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode ([1mLauncher.java:406[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.main ([1mLauncher.java:347[m)
+[1mCaused by[m: java.lang.RuntimeException: [1;31mCould not find /home/victor/workspace/demo/src/main/resources/openapi/openapi.yaml on the classpath[m
+    [1mat[m io.swagger.v3.parser.util.ClasspathHelper.loadFileFromClasspath ([1mClasspathHelper.java:31[m)
+    [1mat[m io.swagger.v3.parser.OpenAPIV3Parser.readContentFromLocation ([1mOpenAPIV3Parser.java:286[m)
+    [1mat[m io.swagger.v3.parser.OpenAPIV3Parser.readLocation ([1mOpenAPIV3Parser.java:92[m)
+    [1mat[m io.swagger.parser.OpenAPIParser.readLocation ([1mOpenAPIParser.java:16[m)
+    [1mat[m org.openapitools.codegen.config.CodegenConfigurator.toContext ([1mCodegenConfigurator.java:573[m)
+    [1mat[m org.openapitools.codegen.config.CodegenConfigurator.toClientOptInput ([1mCodegenConfigurator.java:631[m)
+    [1mat[m org.openapitools.codegen.plugin.CodeGenMojo.execute ([1mCodeGenMojo.java:798[m)
+    [1mat[m org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo ([1mDefaultBuildPluginManager.java:137[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:210[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:156[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:148[m)
+    [1mat[m org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject ([1mLifecycleModuleBuilder.java:117[m)
+    [1mat[m org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject ([1mLifecycleModuleBuilder.java:81[m)
+    [1mat[m org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build ([1mSingleThreadedBuilder.java:56[m)
+    [1mat[m org.apache.maven.lifecycle.internal.LifecycleStarter.execute ([1mLifecycleStarter.java:128[m)
+    [1mat[m org.apache.maven.DefaultMaven.doExecute ([1mDefaultMaven.java:305[m)
+    [1mat[m org.apache.maven.DefaultMaven.doExecute ([1mDefaultMaven.java:192[m)
+    [1mat[m org.apache.maven.DefaultMaven.execute ([1mDefaultMaven.java:105[m)
+    [1mat[m org.apache.maven.cli.MavenCli.execute ([1mMavenCli.java:957[m)
+    [1mat[m org.apache.maven.cli.MavenCli.doMain ([1mMavenCli.java:289[m)
+    [1mat[m org.apache.maven.cli.MavenCli.main ([1mMavenCli.java:193[m)
+    [1mat[m jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 ([1mNative Method[m)
+    [1mat[m jdk.internal.reflect.NativeMethodAccessorImpl.invoke ([1mNativeMethodAccessorImpl.java:77[m)
+    [1mat[m jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke ([1mDelegatingMethodAccessorImpl.java:43[m)
+    [1mat[m java.lang.reflect.Method.invoke ([1mMethod.java:569[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced ([1mLauncher.java:282[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.launch ([1mLauncher.java:225[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode ([1mLauncher.java:406[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.main ([1mLauncher.java:347[m)
+[[1;31mERROR[m] failed to read resource listing
+[1;31mjava.lang.RuntimeException[m: [1;31mCould not find /home/victor/workspace/demo/src/main/resources/openapi/openapi.yaml on the classpath[m
+    [1mat[m io.swagger.parser.util.ClasspathHelper.loadFileFromClasspath ([1mClasspathHelper.java:31[m)
+    [1mat[m io.swagger.parser.SwaggerCompatConverter.readResourceListing ([1mSwaggerCompatConverter.java:206[m)
+    [1mat[m io.swagger.parser.SwaggerCompatConverter.read ([1mSwaggerCompatConverter.java:122[m)
+    [1mat[m io.swagger.parser.SwaggerCompatConverter.readWithInfo ([1mSwaggerCompatConverter.java:93[m)
+    [1mat[m io.swagger.parser.SwaggerParser.readWithInfo ([1mSwaggerParser.java:45[m)
+    [1mat[m io.swagger.v3.parser.converter.SwaggerConverter.readLocation ([1mSwaggerConverter.java:83[m)
+    [1mat[m io.swagger.parser.OpenAPIParser.readLocation ([1mOpenAPIParser.java:16[m)
+    [1mat[m org.openapitools.codegen.config.CodegenConfigurator.toContext ([1mCodegenConfigurator.java:573[m)
+    [1mat[m org.openapitools.codegen.config.CodegenConfigurator.toClientOptInput ([1mCodegenConfigurator.java:631[m)
+    [1mat[m org.openapitools.codegen.plugin.CodeGenMojo.execute ([1mCodeGenMojo.java:798[m)
+    [1mat[m org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo ([1mDefaultBuildPluginManager.java:137[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:210[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:156[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:148[m)
+    [1mat[m org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject ([1mLifecycleModuleBuilder.java:117[m)
+    [1mat[m org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject ([1mLifecycleModuleBuilder.java:81[m)
+    [1mat[m org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build ([1mSingleThreadedBuilder.java:56[m)
+    [1mat[m org.apache.maven.lifecycle.internal.LifecycleStarter.execute ([1mLifecycleStarter.java:128[m)
+    [1mat[m org.apache.maven.DefaultMaven.doExecute ([1mDefaultMaven.java:305[m)
+    [1mat[m org.apache.maven.DefaultMaven.doExecute ([1mDefaultMaven.java:192[m)
+    [1mat[m org.apache.maven.DefaultMaven.execute ([1mDefaultMaven.java:105[m)
+    [1mat[m org.apache.maven.cli.MavenCli.execute ([1mMavenCli.java:957[m)
+    [1mat[m org.apache.maven.cli.MavenCli.doMain ([1mMavenCli.java:289[m)
+    [1mat[m org.apache.maven.cli.MavenCli.main ([1mMavenCli.java:193[m)
+    [1mat[m jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 ([1mNative Method[m)
+    [1mat[m jdk.internal.reflect.NativeMethodAccessorImpl.invoke ([1mNativeMethodAccessorImpl.java:77[m)
+    [1mat[m jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke ([1mDelegatingMethodAccessorImpl.java:43[m)
+    [1mat[m java.lang.reflect.Method.invoke ([1mMethod.java:569[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced ([1mLauncher.java:282[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.launch ([1mLauncher.java:225[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode ([1mLauncher.java:406[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.main ([1mLauncher.java:347[m)
+[[1;36mDEBUG[m] verbmapping: adding  BulkLoadLoad => Import
+[[1;36mDEBUG[m] verbmapping: adding End => Stop
+[[1;36mDEBUG[m] verbmapping: adding Kill => Stop
+[[1;36mDEBUG[m] verbmapping: adding Terminate => Stop
+[[1;36mDEBUG[m] verbmapping: adding Cancel => Stop
+[[1;36mDEBUG[m] verbmapping: adding  Change => Edit
+[[1;36mDEBUG[m] verbmapping: adding  Update => Edit
+[[1;36mDEBUG[m] verbmapping: adding Modify => Edit
+[[1;36mDEBUG[m] verbmapping: skipped Clear
+[[1;36mDEBUG[m] verbmapping: adding Cut => Remove
+[[1;36mDEBUG[m] verbmapping: adding Dispose => Remove
+[[1;36mDEBUG[m] verbmapping: adding Discard => Remove
+[[1;36mDEBUG[m] verbmapping: adding Erase => Remove
+[[1;36mDEBUG[m] verbmapping: skipped Block
+[[1;36mDEBUG[m] verbmapping: adding Object => Deny
+[[1;36mDEBUG[m] verbmapping: adding Refuse => Deny
+[[1;36mDEBUG[m] verbmapping: adding Reject => Deny
+[[1;36mDEBUG[m] verbmapping: adding  Erase => Initialize
+[[1;36mDEBUG[m] verbmapping: adding  Init => Initialize
+[[1;36mDEBUG[m] verbmapping: adding  Renew => Initialize
+[[1;36mDEBUG[m] verbmapping: adding  Rebuild => Initialize
+[[1;36mDEBUG[m] verbmapping: adding  Reinitialize => Initialize
+[[1;36mDEBUG[m] verbmapping: adding Setup => Initialize
+[[1;36mDEBUG[m] verbmapping: adding Certify => Assert
+[[1;36mDEBUG[m] verbmapping: adding RemoveDisable => Revoke
+[[1;36mDEBUG[m] verbmapping: adding Calculate => Measure
+[[1;36mDEBUG[m] verbmapping: adding Determine => Measure
+[[1;36mDEBUG[m] verbmapping: adding Analyze => Measure
+[[1;36mDEBUG[m] verbmapping: adding   Diff => Compare
+[[1;36mDEBUG[m] verbmapping: adding  Export => ConvertFrom
+[[1;36mDEBUG[m] verbmapping: adding  Output => ConvertFrom
+[[1;36mDEBUG[m] verbmapping: skipped Out
+[[1;36mDEBUG[m] verbmapping: adding FixRestore => Repair
+[[1;36mDEBUG[m] verbmapping: adding HaltHide => Disable
+[[1;36mDEBUG[m] verbmapping: adding PopOut => Exit
+[[1;36mDEBUG[m] verbmapping: adding JoinTelnet => Connect
+[[1;36mDEBUG[m] verbmapping: adding Release => Unlock
+[[1;36mDEBUG[m] verbmapping: adding Unrestrict => Unlock
+[[1;36mDEBUG[m] verbmapping: adding Unsecure => Unlock
+[[1;36mDEBUG[m] verbmapping: skipped Read
+[[1;36mDEBUG[m] verbmapping: skipped Open
+[[1;36mDEBUG[m] verbmapping: adding Cat => Get
+[[1;36mDEBUG[m] verbmapping: adding Type => Get
+[[1;36mDEBUG[m] verbmapping: adding Dir => Get
+[[1;36mDEBUG[m] verbmapping: adding Obtain => Get
+[[1;36mDEBUG[m] verbmapping: adding Dump => Get
+[[1;36mDEBUG[m] verbmapping: adding Acquire => Get
+[[1;36mDEBUG[m] verbmapping: adding Examine => Get
+[[1;36mDEBUG[m] verbmapping: skipped Find
+[[1;36mDEBUG[m] verbmapping: skipped Search
+[[1;36mDEBUG[m] verbmapping: adding  ExplodeUncompress => Expand
+[[1;36mDEBUG[m] verbmapping: adding DisplayProduce => Show
+[[1;36mDEBUG[m] verbmapping: adding parate => Split
+[[1;36mDEBUG[m] verbmapping: skipped Block
+[[1;36mDEBUG[m] verbmapping: adding PutPrint => Write
+[[1;36mDEBUG[m] verbmapping: adding  Aggregate => Group
+[[1;36mDEBUG[m] verbmapping: adding  Arrange => Group
+[[1;36mDEBUG[m] verbmapping: adding  Associate => Group
+[[1;36mDEBUG[m] verbmapping: adding Correlate => Group
+[[1;36mDEBUG[m] verbmapping: skipped Write
+[[1;36mDEBUG[m] verbmapping: skipped Reset
+[[1;36mDEBUG[m] verbmapping: adding Assign => Set
+[[1;36mDEBUG[m] verbmapping: adding Configure => Set
+[[1;36mDEBUG[m] verbmapping: adding  Uninstall => Unpublish
+[[1;36mDEBUG[m] verbmapping: adding  Revert => Unpublish
+[[1;36mDEBUG[m] verbmapping: skipped Hide
+[[1;36mDEBUG[m] verbmapping: adding Acknowledge => Confirm
+[[1;36mDEBUG[m] verbmapping: adding Agree => Confirm
+[[1;36mDEBUG[m] verbmapping: adding Certify => Confirm
+[[1;36mDEBUG[m] verbmapping: adding Validate => Confirm
+[[1;36mDEBUG[m] verbmapping: adding Verify => Confirm
+[[1;36mDEBUG[m] verbmapping: adding Recycle => Restart
+[[1;36mDEBUG[m] verbmapping: adding RunStart => Invoke
+[[1;36mDEBUG[m] verbmapping: adding  ExtractBackup => Export
+[[1;36mDEBUG[m] verbmapping: adding StartBegin => Enable
+[[1;36mDEBUG[m] verbmapping: adding Encrypt => Protect
+[[1;36mDEBUG[m] verbmapping: adding Safeguard => Protect
+[[1;36mDEBUG[m] verbmapping: adding Seal => Protect
+[[1;36mDEBUG[m] verbmapping: adding  Change => Convert
+[[1;36mDEBUG[m] verbmapping: adding  Resize => Convert
+[[1;36mDEBUG[m] verbmapping: adding Resample => Convert
+[[1;36mDEBUG[m] verbmapping: adding Combine => Join
+[[1;36mDEBUG[m] verbmapping: adding Unite => Join
+[[1;36mDEBUG[m] verbmapping: skipped Connect
+[[1;36mDEBUG[m] verbmapping: adding Associate => Join
+[[1;36mDEBUG[m] verbmapping: adding ExpandDetermine => Resolve
+[[1;36mDEBUG[m] verbmapping: adding RestrictSecure => Lock
+[[1;36mDEBUG[m] verbmapping: adding   Diff => Checkpoint
+[[1;36mDEBUG[m] verbmapping: adding  CombineJoin => Merge
+[[1;36mDEBUG[m] verbmapping: adding FindLocate => Select
+[[1;36mDEBUG[m] verbmapping: skipped Read
+[[1;36mDEBUG[m] verbmapping: adding Accept => Receive
+[[1;36mDEBUG[m] verbmapping: adding Peek => Receive
+[[1;36mDEBUG[m] verbmapping: adding Post => Submit
+[[1;36mDEBUG[m] verbmapping: adding Append => Add
+[[1;36mDEBUG[m] verbmapping: adding Attach => Add
+[[1;36mDEBUG[m] verbmapping: adding Concatenate => Add
+[[1;36mDEBUG[m] verbmapping: adding Insert => Add
+[[1;36mDEBUG[m] verbmapping: adding Create => New
+[[1;36mDEBUG[m] verbmapping: adding Generate => New
+[[1;36mDEBUG[m] verbmapping: skipped Build
+[[1;36mDEBUG[m] verbmapping: adding Make => New
+[[1;36mDEBUG[m] verbmapping: adding Allocate => New
+[[1;36mDEBUG[m] verbmapping: adding Launch => Start
+[[1;36mDEBUG[m] verbmapping: adding Initiate => Start
+[[1;36mDEBUG[m] verbmapping: adding Boot => Start
+[[1;36mDEBUG[m] verbmapping: adding  Connect => Mount
+[[1;36mDEBUG[m] verbmapping: adding  Refresh => Update
+[[1;36mDEBUG[m] verbmapping: adding  Renew => Update
+[[1;36mDEBUG[m] verbmapping: adding  Recalculate => Update
+[[1;36mDEBUG[m] verbmapping: adding Re-index => Update
+[[1;36mDEBUG[m] verbmapping: adding Put => Send
+[[1;36mDEBUG[m] verbmapping: adding Broadcast => Send
+[[1;36mDEBUG[m] verbmapping: adding Mail => Send
+[[1;36mDEBUG[m] verbmapping: adding Fax => Send
+[[1;36mDEBUG[m] verbmapping: adding Acquire => Read
+[[1;36mDEBUG[m] verbmapping: adding Prompt => Read
+[[1;36mDEBUG[m] verbmapping: skipped Get
+[[1;36mDEBUG[m] verbmapping: adding Diagnose => Test
+[[1;36mDEBUG[m] verbmapping: adding Analyze => Test
+[[1;36mDEBUG[m] verbmapping: adding Salvage => Test
+[[1;36mDEBUG[m] verbmapping: adding Verify => Test
+[[1;36mDEBUG[m] verbmapping: adding FindLocate => Search
+[[1;36mDEBUG[m] verbmapping: adding  Replicate => Sync
+[[1;36mDEBUG[m] verbmapping: adding  Coerce => Sync
+[[1;36mDEBUG[m] verbmapping: adding Match => Sync
+[[1;36mDEBUG[m] verbmapping: adding Setup => Install
+[[1;36mDEBUG[m] verbmapping: adding   Compact => Compress
+[[1;36mDEBUG[m] verbmapping: adding Duplicate => Copy
+[[1;36mDEBUG[m] verbmapping: adding Clone => Copy
+[[1;36mDEBUG[m] verbmapping: adding Replicate => Copy
+[[1;36mDEBUG[m] verbmapping: skipped Sync
+[[1;36mDEBUG[m] verbmapping: adding PushInto => Enter
+[[1;36mDEBUG[m] verbmapping: adding BypassJump => Skip
+[[1;36mDEBUG[m] verbmapping: adding Prevent => Block
+[[1;36mDEBUG[m] verbmapping: skipped Limit
+[[1;36mDEBUG[m] verbmapping: skipped Deny
+[[1;36mDEBUG[m] verbmapping: adding SleepPause => Wait
+[[1;36mDEBUG[m] verbmapping: adding  UnmountUnlink => Dismount
+[[1;36mDEBUG[m] verbmapping: adding  Save => Backup
+[[1;36mDEBUG[m] verbmapping: adding  Burn => Backup
+[[1;36mDEBUG[m] verbmapping: adding  Replicate => Backup
+[[1;36mDEBUG[m] verbmapping: skipped Sync
+[[1;36mDEBUG[m] verbmapping: adding Pause => Suspend
+[[1;36mDEBUG[m] verbmapping: adding ClearAllow => Unblock
+[[1;36mDEBUG[m] verbmapping: adding  Repair => Restore
+[[1;36mDEBUG[m] verbmapping: adding  Return => Restore
+[[1;36mDEBUG[m] verbmapping: adding  Undo => Restore
+[[1;36mDEBUG[m] verbmapping: adding Fix => Restore
+[[1;36mDEBUG[m] verbmapping: adding Flush => Clear
+[[1;36mDEBUG[m] verbmapping: adding Erase => Clear
+[[1;36mDEBUG[m] verbmapping: adding Release => Clear
+[[1;36mDEBUG[m] verbmapping: adding Unmark => Clear
+[[1;36mDEBUG[m] verbmapping: adding Unset => Clear
+[[1;36mDEBUG[m] verbmapping: adding Nullify => Clear
+[[1;36mDEBUG[m] verbmapping: adding BreakLogoff => Disconnect
+[[1;36mDEBUG[m] verbmapping: adding Transfer => Move
+[[1;36mDEBUG[m] verbmapping: adding Name => Move
+[[1;36mDEBUG[m] verbmapping: adding Migrate => Move
+[[1;36mDEBUG[m] verbmapping: adding  Deploy => Publish
+[[1;36mDEBUG[m] verbmapping: adding  Release => Publish
+[[1;36mDEBUG[m] verbmapping: skipped Install
+[[1;36mDEBUG[m] verbmapping: adding Diagnose => Debug
+[[1;36mDEBUG[m] verbmapping: adding AllowEnable => Grant
+[[1;36mDEBUG[m] verbmapping: adding Change => Rename
+[[1;36mDEBUG[m] verbmapping: adding Track => Trace
+[[1;36mDEBUG[m] verbmapping: adding Follow => Trace
+[[1;36mDEBUG[m] verbmapping: adding Inspect => Trace
+[[1;36mDEBUG[m] verbmapping: adding Dig => Trace
+[[1;36mDEBUG[m] verbmapping: adding  Import => ConvertTo
+[[1;36mDEBUG[m] verbmapping: adding  Input => ConvertTo
+[[1;36mDEBUG[m] verbmapping: adding In => ConvertTo
+[[1;36mDEBUG[m] verbmapping: adding DecryptUnseal => Unprotect
+[[1;36mDEBUG[m] verbmapping: skipped Remove
+[[1;36mDEBUG[m] verbmapping: adding   Quota => Limit
+[[1;33mWARNING[m] /home/victor/workspace/demo/src/main/resources/openapi/openapi.yaml [0:0]: unexpected error in Open-API generation
+[1;31mjava.lang.NullPointerException[m: [1;31mCannot invoke "io.swagger.v3.oas.models.OpenAPI.getExtensions()" because "openAPI" is null[m
+    [1mat[m org.openapitools.codegen.DefaultCodegen.setOpenAPI ([1mDefaultCodegen.java:832[m)
+    [1mat[m org.openapitools.codegen.ClientOptInput.setOpenAPI ([1mClientOptInput.java:111[m)
+    [1mat[m org.openapitools.codegen.ClientOptInput.openAPI ([1mClientOptInput.java:35[m)
+    [1mat[m org.openapitools.codegen.config.CodegenConfigurator.toClientOptInput ([1mCodegenConfigurator.java:685[m)
+    [1mat[m org.openapitools.codegen.plugin.CodeGenMojo.execute ([1mCodeGenMojo.java:798[m)
+    [1mat[m org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo ([1mDefaultBuildPluginManager.java:137[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:210[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:156[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:148[m)
+    [1mat[m org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject ([1mLifecycleModuleBuilder.java:117[m)
+    [1mat[m org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject ([1mLifecycleModuleBuilder.java:81[m)
+    [1mat[m org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build ([1mSingleThreadedBuilder.java:56[m)
+    [1mat[m org.apache.maven.lifecycle.internal.LifecycleStarter.execute ([1mLifecycleStarter.java:128[m)
+    [1mat[m org.apache.maven.DefaultMaven.doExecute ([1mDefaultMaven.java:305[m)
+    [1mat[m org.apache.maven.DefaultMaven.doExecute ([1mDefaultMaven.java:192[m)
+    [1mat[m org.apache.maven.DefaultMaven.execute ([1mDefaultMaven.java:105[m)
+    [1mat[m org.apache.maven.cli.MavenCli.execute ([1mMavenCli.java:957[m)
+    [1mat[m org.apache.maven.cli.MavenCli.doMain ([1mMavenCli.java:289[m)
+    [1mat[m org.apache.maven.cli.MavenCli.main ([1mMavenCli.java:193[m)
+    [1mat[m jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 ([1mNative Method[m)
+    [1mat[m jdk.internal.reflect.NativeMethodAccessorImpl.invoke ([1mNativeMethodAccessorImpl.java:77[m)
+    [1mat[m jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke ([1mDelegatingMethodAccessorImpl.java:43[m)
+    [1mat[m java.lang.reflect.Method.invoke ([1mMethod.java:569[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced ([1mLauncher.java:282[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.launch ([1mLauncher.java:225[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode ([1mLauncher.java:406[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.main ([1mLauncher.java:347[m)
+[[1;31mERROR[m] 
+[1;31mjava.lang.NullPointerException[m: [1;31mCannot invoke "io.swagger.v3.oas.models.OpenAPI.getExtensions()" because "openAPI" is null[m
+    [1mat[m org.openapitools.codegen.DefaultCodegen.setOpenAPI ([1mDefaultCodegen.java:832[m)
+    [1mat[m org.openapitools.codegen.ClientOptInput.setOpenAPI ([1mClientOptInput.java:111[m)
+    [1mat[m org.openapitools.codegen.ClientOptInput.openAPI ([1mClientOptInput.java:35[m)
+    [1mat[m org.openapitools.codegen.config.CodegenConfigurator.toClientOptInput ([1mCodegenConfigurator.java:685[m)
+    [1mat[m org.openapitools.codegen.plugin.CodeGenMojo.execute ([1mCodeGenMojo.java:798[m)
+    [1mat[m org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo ([1mDefaultBuildPluginManager.java:137[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:210[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:156[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:148[m)
+    [1mat[m org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject ([1mLifecycleModuleBuilder.java:117[m)
+    [1mat[m org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject ([1mLifecycleModuleBuilder.java:81[m)
+    [1mat[m org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build ([1mSingleThreadedBuilder.java:56[m)
+    [1mat[m org.apache.maven.lifecycle.internal.LifecycleStarter.execute ([1mLifecycleStarter.java:128[m)
+    [1mat[m org.apache.maven.DefaultMaven.doExecute ([1mDefaultMaven.java:305[m)
+    [1mat[m org.apache.maven.DefaultMaven.doExecute ([1mDefaultMaven.java:192[m)
+    [1mat[m org.apache.maven.DefaultMaven.execute ([1mDefaultMaven.java:105[m)
+    [1mat[m org.apache.maven.cli.MavenCli.execute ([1mMavenCli.java:957[m)
+    [1mat[m org.apache.maven.cli.MavenCli.doMain ([1mMavenCli.java:289[m)
+    [1mat[m org.apache.maven.cli.MavenCli.main ([1mMavenCli.java:193[m)
+    [1mat[m jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 ([1mNative Method[m)
+    [1mat[m jdk.internal.reflect.NativeMethodAccessorImpl.invoke ([1mNativeMethodAccessorImpl.java:77[m)
+    [1mat[m jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke ([1mDelegatingMethodAccessorImpl.java:43[m)
+    [1mat[m java.lang.reflect.Method.invoke ([1mMethod.java:569[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced ([1mLauncher.java:282[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.launch ([1mLauncher.java:225[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode ([1mLauncher.java:406[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.main ([1mLauncher.java:347[m)
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  1.042 s
+[[1;34mINFO[m] Finished at: 2025-06-16T18:52:43+02:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32morg.openapitools:openapi-generator-maven-plugin:6.2.1:generate[m [1m(generate-sources)[m on project [36mdemo[m: [1;31mCode generation failed. See above for the full exception.[m -> [1m[Help 1][m
+[1;31morg.apache.maven.lifecycle.LifecycleExecutionException[m: [1;31mFailed to execute goal [32morg.openapitools:openapi-generator-maven-plugin:6.2.1:generate[m [1m(generate-sources)[m on project [36mdemo[m: [1;31mCode generation failed. See above for the full exception.[m[m
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:215[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:156[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:148[m)
+    [1mat[m org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject ([1mLifecycleModuleBuilder.java:117[m)
+    [1mat[m org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject ([1mLifecycleModuleBuilder.java:81[m)
+    [1mat[m org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build ([1mSingleThreadedBuilder.java:56[m)
+    [1mat[m org.apache.maven.lifecycle.internal.LifecycleStarter.execute ([1mLifecycleStarter.java:128[m)
+    [1mat[m org.apache.maven.DefaultMaven.doExecute ([1mDefaultMaven.java:305[m)
+    [1mat[m org.apache.maven.DefaultMaven.doExecute ([1mDefaultMaven.java:192[m)
+    [1mat[m org.apache.maven.DefaultMaven.execute ([1mDefaultMaven.java:105[m)
+    [1mat[m org.apache.maven.cli.MavenCli.execute ([1mMavenCli.java:957[m)
+    [1mat[m org.apache.maven.cli.MavenCli.doMain ([1mMavenCli.java:289[m)
+    [1mat[m org.apache.maven.cli.MavenCli.main ([1mMavenCli.java:193[m)
+    [1mat[m jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 ([1mNative Method[m)
+    [1mat[m jdk.internal.reflect.NativeMethodAccessorImpl.invoke ([1mNativeMethodAccessorImpl.java:77[m)
+    [1mat[m jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke ([1mDelegatingMethodAccessorImpl.java:43[m)
+    [1mat[m java.lang.reflect.Method.invoke ([1mMethod.java:569[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced ([1mLauncher.java:282[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.launch ([1mLauncher.java:225[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode ([1mLauncher.java:406[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.main ([1mLauncher.java:347[m)
+[1mCaused by[m: org.apache.maven.plugin.MojoExecutionException: [1;31mCode generation failed. See above for the full exception.[m
+    [1mat[m org.openapitools.codegen.plugin.CodeGenMojo.execute ([1mCodeGenMojo.java:847[m)
+    [1mat[m org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo ([1mDefaultBuildPluginManager.java:137[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:210[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:156[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:148[m)
+    [1mat[m org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject ([1mLifecycleModuleBuilder.java:117[m)
+    [1mat[m org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject ([1mLifecycleModuleBuilder.java:81[m)
+    [1mat[m org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build ([1mSingleThreadedBuilder.java:56[m)
+    [1mat[m org.apache.maven.lifecycle.internal.LifecycleStarter.execute ([1mLifecycleStarter.java:128[m)
+    [1mat[m org.apache.maven.DefaultMaven.doExecute ([1mDefaultMaven.java:305[m)
+    [1mat[m org.apache.maven.DefaultMaven.doExecute ([1mDefaultMaven.java:192[m)
+    [1mat[m org.apache.maven.DefaultMaven.execute ([1mDefaultMaven.java:105[m)
+    [1mat[m org.apache.maven.cli.MavenCli.execute ([1mMavenCli.java:957[m)
+    [1mat[m org.apache.maven.cli.MavenCli.doMain ([1mMavenCli.java:289[m)
+    [1mat[m org.apache.maven.cli.MavenCli.main ([1mMavenCli.java:193[m)
+    [1mat[m jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 ([1mNative Method[m)
+    [1mat[m jdk.internal.reflect.NativeMethodAccessorImpl.invoke ([1mNativeMethodAccessorImpl.java:77[m)
+    [1mat[m jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke ([1mDelegatingMethodAccessorImpl.java:43[m)
+    [1mat[m java.lang.reflect.Method.invoke ([1mMethod.java:569[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced ([1mLauncher.java:282[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.launch ([1mLauncher.java:225[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode ([1mLauncher.java:406[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.main ([1mLauncher.java:347[m)
+[[1;31mERROR[m] 
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException

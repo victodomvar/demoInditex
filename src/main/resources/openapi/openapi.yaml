@@ -1,0 +1,69 @@
+openapi: 3.0.3
+info:
+  title: Inditex Pricing API
+  version: 1.0.0
+servers:
+  - url: http://localhost:8080
+paths:
+  /prices:
+    get:
+      tags:
+        - prices
+      summary: Get applicable price
+      operationId: getPrice
+      parameters:
+        - in: query
+          name: date
+          required: true
+          schema:
+            type: string
+            format: date-time
+        - in: query
+          name: productId
+          required: true
+          schema:
+            type: integer
+            format: int64
+        - in: query
+          name: brandId
+          required: true
+          schema:
+            type: integer
+            format: int64
+      responses:
+        '200':
+          description: Price found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PriceResponseDto'
+        '404':
+          description: No applicable price found
+tags:
+  - name: prices
+    description: API to retrieve product pricing
+
+components:
+  schemas:
+    PriceResponseDto:
+      type: object
+      properties:
+        productId:
+          type: integer
+          format: int64
+        brandId:
+          type: integer
+          format: int64
+        priceList:
+          type: integer
+        startDate:
+          type: string
+          format: date-time
+        endDate:
+          type: string
+          format: date-time
+        price:
+          type: number
+          format: double
+        currency:
+          type: string
